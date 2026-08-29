@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-08-29T04:00:00+02:00",
+  "series": {
+    "mac-mini": [
+      {
+        "id": "mac-mini-m4",
+        "name": "Mac mini M4",
+        "generation": 4,
+        "date": "2024-10-29",
+        "variants": [
+          {
+            "id": "base",
+            "label": "ab",
+            "gross": 699,
+            "fee": 10.55
+          }
+        ],
+        "source": "Apple Newsroom DE"
+      },
+      {
+        "id": "mac-mini-m6",
+        "name": "Mac mini M6",
+        "generation": 6,
+        "date": "2026-08-25",
+        "variants": [
+          {
+            "id": "base",
+            "label": "ab",
+            "gross": 1049,
+            "fee": 10.55
+          }
+        ],
+        "source": "Apple Newsroom DE"
+      }
+    ],
+    "ipad-pro-13": [
+      {
+        "id": "ipad-pro-13-m5",
+        "name": "iPad Pro 13\" M5",
+        "generation": 5,
+        "date": "2025-10-15",
+        "variants": [
+          {
+            "id": "256gb",
+            "label": "256 GB",
+            "gross": 1449,
+            "fee": 7
+          }
+        ],
+        "source": "Apple Newsroom DE – Einführungspreis"
+      }
+    ]
+  }
+}
