@@ -37,7 +37,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Apple-Preise und ZPÜ-Abgaben prüfen
-        run: python scripts/update_prices.py
+        run: python update_prices.py
 
       - name: Neue Preisstände und Historie sichern
         run: |
