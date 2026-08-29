@@ -1,32 +1,28 @@
 {
   "schema": 2,
-  "updatedAt": "2026-08-29T03:03:30+00:00",
+  "updatedAt": "2026-08-29T04:00:00+02:00",
   "sourceLabel": "Apple Store Deutschland",
   "vat": 0.19,
   "levies": {
     "iphone": {
       "amount": 5.0,
-      "source": "ZPÜ iphone · Gesamtvertragsmitglieder",
-      "verified": true,
-      "checkedAt": "2026-08-29T03:03:15+00:00"
+      "source": "ZPÜ Mobiltelefone (Gesamtvertragsmitglieder)",
+      "verified": true
     },
     "ipad": {
       "amount": 7.0,
-      "source": "ZPÜ ipad · Gesamtvertragsmitglieder",
-      "verified": true,
-      "checkedAt": "2026-08-29T03:03:16+00:00"
+      "source": "ZPÜ Tablets (Gesamtvertragsmitglieder)",
+      "verified": true
     },
     "mac": {
       "amount": 10.55,
-      "source": "ZPÜ mac · Gesamtvertragsmitglieder",
-      "verified": true,
-      "checkedAt": "2026-08-29T03:03:16+00:00"
+      "source": "ZPÜ Verbraucher-PCs (Gesamtvertragsmitglieder)",
+      "verified": true
     },
     "watch": {
       "amount": 1.2,
-      "source": "ZPÜ watch · Gesamtvertragsmitglieder",
-      "verified": true,
-      "checkedAt": "2026-08-29T03:03:16+00:00"
+      "source": "ZPÜ Smartwatches (Gesamtvertragsmitglieder)",
+      "verified": true
     },
     "vision": {
       "amount": 0.0,
@@ -82,22 +78,22 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17-pro",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 1299.0,
-          "fee": 5.0
+          "gross": 1299,
+          "fee": 5
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1549.0,
-          "fee": 5.0
+          "gross": 1549,
+          "fee": 5
         },
         {
           "id": "1tb",
           "label": "1 TB",
-          "gross": 1799.0,
-          "fee": 5.0
+          "gross": 1799,
+          "fee": 5
         }
       ]
     },
@@ -111,28 +107,28 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17-pro",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 1449.0,
-          "fee": 5.0
+          "gross": 1449,
+          "fee": 5
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1699.0,
-          "fee": 5.0
+          "gross": 1699,
+          "fee": 5
         },
         {
           "id": "1tb",
           "label": "1 TB",
-          "gross": 1949.0,
-          "fee": 5.0
+          "gross": 1949,
+          "fee": 5
         },
         {
           "id": "2tb",
           "label": "2 TB",
-          "gross": 2449.0,
-          "fee": 5.0
+          "gross": 2449,
+          "fee": 5
         }
       ]
     },
@@ -146,22 +142,22 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 1199.0,
-          "fee": 5.0
+          "gross": 1199,
+          "fee": 5
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1449.0,
-          "fee": 5.0
+          "gross": 1449,
+          "fee": 5
         },
         {
           "id": "1tb",
           "label": "1 TB",
-          "gross": 1699.0,
-          "fee": 5.0
+          "gross": 1699,
+          "fee": 5
         }
       ]
     },
@@ -175,16 +171,16 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 949.0,
-          "fee": 5.0
+          "gross": 949,
+          "fee": 5
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1199.0,
-          "fee": 5.0
+          "gross": 1199,
+          "fee": 5
         }
       ]
     },
@@ -198,16 +194,10 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
       "variants": [
         {
-          "id": "256gb",
-          "label": "256 GB",
-          "gross": 699.0,
-          "fee": 5.0
-        },
-        {
-          "id": "512gb",
-          "label": "512 GB",
-          "gross": 949.0,
-          "fee": 5.0
+          "id": "base",
+          "label": "ab",
+          "gross": 699,
+          "fee": 5
         }
       ]
     },
@@ -221,10 +211,10 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
       "variants": [
         {
-          "id": "256gb",
-          "label": "256 GB",
-          "gross": 1079.0,
-          "fee": 5.0
+          "id": "base",
+          "label": "ab",
+          "gross": 849,
+          "fee": 5
         }
       ]
     },
@@ -238,28 +228,28 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-pro/11-zoll-display-256gb-space-schwarz-wifi-standardglas",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 1299.0,
-          "fee": 7.0
+          "gross": 1299,
+          "fee": 7
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1549.0,
-          "fee": 7.0
+          "gross": 1549,
+          "fee": 7
         },
         {
           "id": "1tb",
           "label": "1 TB",
-          "gross": 2029.0,
-          "fee": 7.0
+          "gross": 2029,
+          "fee": 7
         },
         {
           "id": "2tb",
           "label": "2 TB",
-          "gross": 2649.0,
-          "fee": 7.0
+          "gross": 2649,
+          "fee": 7
         }
       ]
     },
@@ -273,28 +263,28 @@
       "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-pro/13-zoll-display-256gb-space-schwarz-wifi-standardglas",
       "variants": [
         {
-          "id": "256gb",
+          "id": "256",
           "label": "256 GB",
-          "gross": 1649.0,
-          "fee": 7.0
+          "gross": 1649,
+          "fee": 7
         },
         {
-          "id": "512gb",
+          "id": "512",
           "label": "512 GB",
-          "gross": 1899.0,
-          "fee": 7.0
+          "gross": 1899,
+          "fee": 7
         },
         {
           "id": "1tb",
           "label": "1 TB",
-          "gross": 2379.0,
-          "fee": 7.0
+          "gross": 2379,
+          "fee": 7
         },
         {
           "id": "2tb",
           "label": "2 TB",
-          "gross": 2999.0,
-          "fee": 7.0
+          "gross": 2999,
+          "fee": 7
         }
       ]
     },
@@ -310,7 +300,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 1399.0,
+          "gross": 1399,
           "fee": 10.55
         }
       ]
@@ -327,7 +317,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 2199.0,
+          "gross": 2199,
           "fee": 10.55
         }
       ]
@@ -344,7 +334,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 1049.0,
+          "gross": 1049,
           "fee": 10.55
         }
       ]
@@ -361,7 +351,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 2999.0,
+          "gross": 2999,
           "fee": 10.55
         }
       ]
@@ -378,7 +368,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 1799.0,
+          "gross": 1799,
           "fee": 10.55
         }
       ]
@@ -395,7 +385,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 449.0,
+          "gross": 449,
           "fee": 1.2
         }
       ]
@@ -412,7 +402,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 269.0,
+          "gross": 269,
           "fee": 1.2
         }
       ]
@@ -429,7 +419,7 @@
         {
           "id": "base",
           "label": "ab",
-          "gross": 800.0,
+          "gross": 899,
           "fee": 1.2
         }
       ]
@@ -586,142 +576,7 @@
           "fee": 0
         }
       ]
-    },
-    {
-      "id": "auto-ipad-zubehor",
-      "category": "ipad",
-      "seriesKey": "ipad",
-      "generation": 0,
-      "name": "iPad Zubehör.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 1299.0,
-          "fee": 7.0
-        }
-      ]
-    },
-    {
-      "id": "auto-das-ipad-erlebnis",
-      "category": "ipad",
-      "seriesKey": "ipad",
-      "generation": 0,
-      "name": "Das iPad Erlebnis.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 1299.0,
-          "fee": 7.0
-        }
-      ]
-    },
-    {
-      "id": "auto-der-apple-store-macht-den-unterschied",
-      "category": "mac",
-      "seriesKey": "der-apple-store-macht-den-unterschied",
-      "generation": 0,
-      "name": "Der Apple Store macht den Unterschied.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/macbook-neo",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 799.0,
-          "fee": 10.55
-        }
-      ]
-    },
-    {
-      "id": "auto-das-mac-erlebnis",
-      "category": "mac",
-      "seriesKey": "das-mac-erlebnis",
-      "generation": 0,
-      "name": "Das Mac Erlebnis.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/macbook-neo",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 799.0,
-          "fee": 10.55
-        }
-      ]
-    },
-    {
-      "id": "auto-apple-watch-armbander",
-      "category": "watch",
-      "seriesKey": "apple-watch-armb-nder",
-      "generation": 0,
-      "name": "Apple Watch Armbänder.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 449.0,
-          "fee": 1.2
-        }
-      ]
-    },
-    {
-      "id": "auto-das-apple-watch-erlebnis",
-      "category": "watch",
-      "seriesKey": "das-apple-watch-erlebnis",
-      "generation": 0,
-      "name": "Das Apple Watch Erlebnis.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 449.0,
-          "fee": 1.2
-        }
-      ]
-    },
-    {
-      "id": "auto-apple-vision-pro",
-      "category": "vision",
-      "seriesKey": "apple-vision-pro",
-      "generation": 0,
-      "name": "Apple Vision Pro.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/product/zoi2/zeiss-optical-inserts",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 115.0,
-          "fee": 0.0
-        }
-      ]
-    },
-    {
-      "id": "auto-das-apple-vision-pro-erlebnis",
-      "category": "vision",
-      "seriesKey": "das-apple-vision-pro-erlebnis",
-      "generation": 0,
-      "name": "Das Apple Vision Pro Erlebnis.",
-      "subtitle": "automatisch entdeckt",
-      "sourceUrl": "https://www.apple.com/de/shop/product/zoi2/zeiss-optical-inserts",
-      "variants": [
-        {
-          "id": "base",
-          "label": "ab",
-          "gross": 115.0,
-          "fee": 0.0
-        }
-      ]
     }
-  ]
+  ],
+  "snapshotAt": "2026-08-29T03:03:30+00:00"
 }
