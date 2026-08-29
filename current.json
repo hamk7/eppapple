@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "sourceLabel": "Apple Store Deutschland + EPP Referenzstände",
   "lastCheckedAt": "2026-08-29T06:32:00+02:00",
   "updatedAt": "2026-08-29T06:32:00+02:00",
@@ -1453,7 +1453,7 @@
       "brandType": "apple",
       "tags": [],
       "sourceUrl": "https://www.apple.com/de/shop/buy-mac/studio-display",
-      "autoConfig": false,
+      "autoConfig": true,
       "variants": [
         {
           "label": "Standardglas · Neigungsverstellbarer Standfuß",
@@ -3119,5 +3119,6 @@
         "ipad"
       ]
     }
-  ]
+  ],
+  "calculationVersion": "5.0-round-discount-to-cents-then-euro"
 }
