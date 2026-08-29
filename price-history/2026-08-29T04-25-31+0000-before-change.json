@@ -1,8 +1,8 @@
 {
   "schema": 3,
-  "updatedAt": "2026-08-29T04:25:31+00:00",
-  "lastCheckedAt": "2026-08-29T04:23:51+00:00",
-  "lastChangedAt": "2026-08-29T04:25:31+00:00",
+  "updatedAt": "2026-08-29T03:54:18+00:00",
+  "lastCheckedAt": "2026-08-29T03:52:47+00:00",
+  "lastChangedAt": "2026-08-29T03:54:18+00:00",
   "sourceLabel": "Apple Store Deutschland + ZPÜ",
   "vat": 0.19,
   "levies": {
@@ -10,25 +10,25 @@
       "amount": 5.0,
       "source": "ZPÜ iphone · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T04:23:52+00:00"
+      "checkedAt": "2026-08-29T03:52:48+00:00"
     },
     "ipad": {
       "amount": 7.0,
       "source": "ZPÜ ipad · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T04:23:52+00:00"
+      "checkedAt": "2026-08-29T03:52:49+00:00"
     },
     "mac": {
       "amount": 10.55,
       "source": "ZPÜ mac · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T04:23:53+00:00"
+      "checkedAt": "2026-08-29T03:52:49+00:00"
     },
     "watch": {
       "amount": 1.2,
       "source": "ZPÜ watch · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T04:23:53+00:00"
+      "checkedAt": "2026-08-29T03:52:50+00:00"
     },
     "vision": {
       "amount": 0.0,
@@ -499,7 +499,7 @@
       "name": "iPhone 17e",
       "subtitle": "6,1 Zoll",
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
-      "imageUrl": "https://www.apple.com/shop/mdp/echo/echo.png?app=com.apple.www.Store&pageViewId=no-js&recordTime=no-js&referrer=no-js&referer=no-js&host=no-js&pageHostname=no-js&pageUrl=no-js&pagePathname=no-js&pageShopPath=no-js&pageUrlParams=no-js&eventType=pageview&environment=&format=common®ion=emea&country=DE&sf=de&segment=Consumer&locale=de-de&node=standard/home/shop_iphone/family/iphone_17e/select&pageResource=iphone-2&feature=step1evolution",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17e-finish-unselect-gallery-1-202603_GEO_EMEA?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1770766619343",
       "brandType": "apple",
       "tags": [],
       "variants": [
@@ -1829,5 +1829,6 @@
         }
       ]
     }
-  ]
+  ],
+  "snapshotAt": "2026-08-29T04:25:31+00:00"
 }
