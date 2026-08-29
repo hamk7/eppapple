@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updatedAt": "2026-08-29T03:23:56+00:00",
+  "updatedAt": "2026-08-29T03:03:30+00:00",
   "sourceLabel": "Apple Store Deutschland",
   "vat": 0.19,
   "levies": {
@@ -8,25 +8,25 @@
       "amount": 5.0,
       "source": "ZPÜ iphone · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T03:23:46+00:00"
+      "checkedAt": "2026-08-29T03:03:15+00:00"
     },
     "ipad": {
       "amount": 7.0,
       "source": "ZPÜ ipad · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T03:23:46+00:00"
+      "checkedAt": "2026-08-29T03:03:16+00:00"
     },
     "mac": {
       "amount": 10.55,
       "source": "ZPÜ mac · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T03:23:46+00:00"
+      "checkedAt": "2026-08-29T03:03:16+00:00"
     },
     "watch": {
       "amount": 1.2,
       "source": "ZPÜ watch · Gesamtvertragsmitglieder",
       "verified": true,
-      "checkedAt": "2026-08-29T03:23:47+00:00"
+      "checkedAt": "2026-08-29T03:03:16+00:00"
     },
     "vision": {
       "amount": 0.0,
@@ -723,5 +723,6 @@
         }
       ]
     }
-  ]
+  ],
+  "snapshotAt": "2026-08-29T03:23:56+00:00"
 }
