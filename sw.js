@@ -1,23 +1,30 @@
-const CACHE='preisfinder-v4-ipad';
-const CORE=['./','./index.html','./manifest.webmanifest','./icon-180.png','./icon-512.png','./current.json','./history-summary.json'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(Promise.all([
-  self.clients.claim(),
-  caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))
-])));
-self.addEventListener('fetch',e=>{
-  const u=new URL(e.request.url);
-  if(u.origin!==location.origin) return;
-  if(u.pathname.endsWith('/current.json') || u.pathname.endsWith('/history-summary.json')){
-    e.respondWith(fetch(e.request).then(r=>{
-      const copy=r.clone();
-      const clean=new Request(u.origin+u.pathname);
-      caches.open(CACHE).then(c=>c.put(clean,copy));
-      return r;
-    }).catch(()=>caches.match(new Request(u.origin+u.pathname),{ignoreSearch:true})));
-  }else{
-    e.respondWith(fetch(e.request).then(r=>{
-      const copy=r.clone(); caches.open(CACHE).then(c=>c.put(e.request,copy)); return r;
-    }).catch(()=>caches.match(e.request,{ignoreSearch:true})));
+const CACHE = 'apple-rabatt-v3-20260829';
+const CORE = ['./','./index.html','./manifest.webmanifest','./icon-180.png','./icon-512.png','./icon.svg'];
+
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+});
+
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  const isLiveData = url.pathname.endsWith('/current.json') || url.pathname.endsWith('/history-summary.json') || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/');
+  if (isLiveData) {
+    event.respondWith(fetch(req, {cache:'no-store'}).then(res => {
+      const clone = res.clone();
+      caches.open(CACHE).then(cache => cache.put(req, clone));
+      return res;
+    }).catch(() => caches.match(req).then(x => x || caches.match('./index.html'))));
+    return;
   }
+  event.respondWith(caches.match(req).then(cached => cached || fetch(req).then(res => {
+    const clone = res.clone();
+    caches.open(CACHE).then(cache => cache.put(req, clone));
+    return res;
+  })));
 });
