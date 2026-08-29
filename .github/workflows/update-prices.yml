@@ -1,4 +1,4 @@
-name: Apple Rabatt – Preise aktualisieren und Webseite veröffentlichen
+name: Preise aktualisieren und Webseite veröffentlichen
 
 on:
   push:
@@ -13,13 +13,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: apple-rabatt-pages
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -37,18 +36,17 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
-      - name: Öffentliche Apple-Daten und ZPÜ-Abgaben prüfen
-        run: python update_prices.py
+      - name: Apple-Preise und ZPÜ-Abgaben prüfen
+        run: python scripts/update_prices.py
 
-      - name: Preisstand und Historie sichern
-        shell: bash
+      - name: Neue Preisstände und Historie sichern
         run: |
-          if [ -n "$(git status --porcelain -- current.json history-summary.json price-history)" ]; then
-            git config user.name "apple-rabatt-bot"
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "preisfinder-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add current.json history-summary.json price-history
+            git add data
             git commit -m "Preise automatisch aktualisieren" || true
-            git push || true
+            git push
           else
             echo "Keine Datenänderungen"
           fi
