@@ -1,17 +1,13 @@
-# Apple Rabatt
+# Apple Rabatt – Preisrechner
 
-Eine inoffizielle, private Preisrechner-Web-App für Apple-Produkte. Sie liest öffentliche Apple-DE-Produktseiten und öffentliche ZPÜ-Tarife, speichert Preisstände im Repository und berechnet daraus Rabattpreise.
+Private, inoffizielle GitHub-Pages-Web-App zur Berechnung und zum Vergleich von Apple-EPP-Referenzpreisen.
 
-## Automatik
+## Upload auf dem iPad
 
-Der Workflow `.github/workflows/update-prices.yml` läuft regelmäßig und kann zusätzlich manuell gestartet werden. `update_prices.py` aktualisiert `current.json`, `history-summary.json` und archiviert Preisstände unter `price-history/`.
+1. Alle normalen Dateien aus dem iPad-Upload-Paket in die **oberste Ebene** des Repositorys laden und vorhandene Dateien ersetzen.
+2. `update-prices.yml` **nicht** in die oberste Ebene legen, sondern in `.github/workflows/` hochladen und die dortige alte Datei ersetzen.
+3. Unter **Settings → Pages → Source** muss **GitHub Actions** gewählt sein.
+4. Unter **Settings → Actions → General → Workflow permissions** muss **Read and write permissions** aktiv sein.
+5. Unter **Actions** den Workflow einmal manuell mit **Run workflow** starten, falls er nicht automatisch startet.
 
-## GitHub Pages
-
-Repository → Settings → Pages → Source: **GitHub Actions**.
-
-Repository → Settings → Actions → General → Workflow permissions: **Read and write permissions**.
-
-## Hinweis
-
-Nicht von Apple betrieben oder unterstützt. Produktnamen und Abbildungen gehören den jeweiligen Rechteinhabern. Preise können sich ändern; maßgeblich ist der Apple Store beim Kauf.
+Die Web-App verwendet die verifizierten EPP-Referenzwerte als Startpunkt. Der Workflow prüft öffentliche Apple-Store-Seiten und ZPÜ-Abgaben, erweitert Konfigurationen und speichert Preisstände in `price-history/`.
