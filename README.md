@@ -23,3 +23,10 @@ Inoffizielle GitHub-Pages-Web-App zur Berechnung und zum Vergleich von Apple-Rab
 6. Unter **Actions** den Workflow bei Bedarf einmal mit **Run workflow** starten.
 
 Die Web-App ist eine normale responsive Webseite/PWA und funktioniert auch auf Android, Windows, macOS und Desktop-Browsern. Lokale Einkaufstaschen werden nicht automatisch zwischen Geräten synchronisiert.
+
+
+## Paketstand 2026-09-14
+- Zubehörbilder visuell überarbeitet (weiße Motive auf hellem Hintergrund, dunkle/farbige Motive freigestellt).
+- Produktbilder in Karten/Details leicht herausgezoomt.
+- Neue Vorbestellprodukte ergänzt, inkl. AirPods 5.
+- Aktuelle Seed-Daten auf Basis offizieller Apple-Store-Preise aus September 2026.

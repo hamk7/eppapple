@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "sourceLabel": "Apple Store Deutschland + EPP Referenzstände",
-  "lastCheckedAt": "2026-08-29T06:32:00+02:00",
-  "updatedAt": "2026-08-29T06:32:00+02:00",
-  "lastChangedAt": "2026-08-29T06:32:00+02:00",
+  "sourceLabel": "Apple Store Deutschland + manuell optimierte Zubehörbilder",
+  "lastCheckedAt": "2026-09-13T16:15:00+02:00",
+  "updatedAt": "2026-09-14T18:20:02+02:00",
+  "lastChangedAt": "2026-09-14T18:20:02+02:00",
   "vat": 0.19,
   "levies": {
     "iphone": {
@@ -100,15 +100,15 @@
         },
         {
           "id": "series",
-          "name": "Series 11"
+          "name": "Series"
         },
         {
           "id": "se",
-          "name": "SE 3"
+          "name": "SE"
         },
         {
           "id": "ultra",
-          "name": "Ultra 3"
+          "name": "Ultra"
         },
         {
           "id": "hermes",
@@ -142,7 +142,7 @@
         },
         {
           "id": "standard",
-          "name": "AirPods 4"
+          "name": "AirPods"
         },
         {
           "id": "max",
@@ -336,7 +336,8 @@
           "id": "3",
           "fee": 5
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "iphone-17-pro-max",
@@ -392,7 +393,8 @@
           "id": "4",
           "fee": 5
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "iphone-air",
@@ -410,7 +412,7 @@
       "variants": [
         {
           "label": "256 GB",
-          "gross": 1199,
+          "gross": 1299,
           "options": {
             "Speicher": "256 GB"
           },
@@ -423,7 +425,7 @@
         },
         {
           "label": "512 GB",
-          "gross": 1449,
+          "gross": 1549,
           "options": {
             "Speicher": "512 GB"
           },
@@ -435,14 +437,16 @@
         },
         {
           "label": "1 TB",
-          "gross": 1699,
+          "gross": 1799,
           "options": {
             "Speicher": "1 TB"
           },
           "id": "3",
           "fee": 5
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
     },
     {
       "id": "iphone-17",
@@ -460,7 +464,7 @@
       "variants": [
         {
           "label": "256 GB",
-          "gross": 949,
+          "gross": 1099,
           "options": {
             "Speicher": "256 GB"
           },
@@ -473,14 +477,16 @@
         },
         {
           "label": "512 GB",
-          "gross": 1199,
+          "gross": 1349,
           "options": {
             "Speicher": "512 GB"
           },
           "id": "2",
           "fee": 5
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
     },
     {
       "id": "iphone-17e",
@@ -518,7 +524,9 @@
           "id": "2",
           "fee": 5
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
     },
     {
       "id": "iphone-16",
@@ -537,7 +545,7 @@
         {
           "id": "1",
           "label": "128 GB",
-          "gross": 849,
+          "gross": 999,
           "fee": 5,
           "options": {
             "Speicher": "128 GB"
@@ -550,7 +558,7 @@
         {
           "id": "2",
           "label": "256 GB",
-          "gross": 979,
+          "gross": 1129,
           "fee": 5,
           "options": {
             "Speicher": "256 GB"
@@ -559,13 +567,15 @@
         {
           "id": "3",
           "label": "512 GB",
-          "gross": 1229,
+          "gross": 1379,
           "fee": 5,
           "options": {
             "Speicher": "512 GB"
           }
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 120
     },
     {
       "id": "iphone-16-plus",
@@ -611,7 +621,8 @@
             "Speicher": "512 GB"
           }
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "ipad-pro",
@@ -871,7 +882,9 @@
             "Glas": "Nanotexturglas"
           }
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
     },
     {
       "id": "ipad-air",
@@ -1067,7 +1080,9 @@
           "id": "16",
           "fee": 7
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 145
     },
     {
       "id": "ipad",
@@ -1147,7 +1162,9 @@
           "id": "6",
           "fee": 7
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 135
     },
     {
       "id": "ipad-mini",
@@ -1227,7 +1244,9 @@
           "id": "6",
           "fee": 7
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 132
     },
     {
       "id": "macbook-neo",
@@ -1256,7 +1275,9 @@
           "id": "1",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
     },
     {
       "id": "macbook-air",
@@ -1288,7 +1309,9 @@
           "id": "1",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
     },
     {
       "id": "macbook-pro",
@@ -1320,7 +1343,9 @@
           "id": "1",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 138
     },
     {
       "id": "imac",
@@ -1353,7 +1378,9 @@
           "id": "1",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
     },
     {
       "id": "mac-mini",
@@ -1397,7 +1424,9 @@
           "id": "2",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 136
     },
     {
       "id": "mac-studio",
@@ -1439,7 +1468,9 @@
           "id": "2",
           "fee": 10.55
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 134
     },
     {
       "id": "studio-display",
@@ -1519,7 +1550,9 @@
           "id": "6",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 122
     },
     {
       "id": "studio-display-xdr",
@@ -1579,7 +1612,9 @@
           "id": "4",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 120
     },
     {
       "id": "watch-series-11",
@@ -1647,7 +1682,8 @@
           "id": "4",
           "fee": 1.2
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "watch-se-3",
@@ -1715,7 +1751,9 @@
           "id": "4",
           "fee": 1.2
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
     },
     {
       "id": "watch-ultra-3",
@@ -1759,7 +1797,8 @@
           "id": "2",
           "fee": 1.2
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "watch-hermes",
@@ -1804,7 +1843,8 @@
           "id": "2",
           "fee": 1.2
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "watch-hermes-ultra-3",
@@ -1837,7 +1877,8 @@
           "id": "1",
           "fee": 1.2
         }
-      ]
+      ],
+      "availabilityStatus": "Vorgänger"
     },
     {
       "id": "vision-pro",
@@ -1887,7 +1928,9 @@
           "id": "3",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
     },
     {
       "id": "airpods-pro-3",
@@ -1913,7 +1956,9 @@
           "id": "1",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
     },
     {
       "id": "airpods-4",
@@ -1951,7 +1996,9 @@
           "id": "2",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 136
     },
     {
       "id": "airpods-max-2",
@@ -1977,7 +2024,9 @@
           "id": "1",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
     },
     {
       "id": "homepod",
@@ -2003,7 +2052,9 @@
           "id": "1",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 128
     },
     {
       "id": "homepod-mini",
@@ -2029,7 +2080,9 @@
           "id": "1",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 126
     },
     {
       "id": "apple-tv-4k",
@@ -2069,7 +2122,9 @@
           "id": "2",
           "fee": 0
         }
-      ]
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 124
     },
     {
       "id": "acc-seed-1",
@@ -3117,6 +3172,395 @@
       ],
       "compat": [
         "ipad"
+      ]
+    },
+    {
+      "id": "iphone-duo",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-duo",
+      "generation": 18,
+      "name": "iPhone Duo",
+      "subtitle": "7,6 Zoll innen · 5,4 Zoll außen",
+      "imageUrl": "iphone-duo.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Faltbar",
+        "Duo"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 180,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 2299,
+          "fee": 5,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 2549,
+          "fee": 5,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 3049,
+          "fee": 5,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 3799,
+          "fee": 5,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iphone-18-pro",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro",
+      "generation": 18,
+      "name": "iPhone 18 Pro",
+      "subtitle": "6,3 Zoll",
+      "imageUrl": "iphone-18-pro.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Pro"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 170,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 1449,
+          "fee": 5,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 1699,
+          "fee": 5,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 2199,
+          "fee": 5,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 2949,
+          "fee": 5,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iphone-18-pro-max",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro-max",
+      "generation": 18,
+      "name": "iPhone 18 Pro Max",
+      "subtitle": "6,9 Zoll",
+      "imageUrl": "iphone-18-pro.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Pro Max"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 168,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 1599,
+          "fee": 5,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 1849,
+          "fee": 5,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 2349,
+          "fee": 5,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 3099,
+          "fee": 5,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-series-12",
+      "category": "watch",
+      "subcategory": "series",
+      "seriesKey": "watch-series",
+      "generation": 12,
+      "name": "Apple Watch Series 12",
+      "subtitle": "42 oder 46 mm",
+      "imageUrl": "watch-series-12.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Series 12"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 160,
+      "variants": [
+        {
+          "label": "42 mm · Aluminium · GPS · Sportarmband",
+          "gross": 449,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "epp": {
+            "17": 372.71,
+            "27": 328.68
+          },
+          "id": "1",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS · Sportarmband",
+          "gross": 479,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "id": "2",
+          "fee": 1.2
+        },
+        {
+          "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 569,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "3",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 599,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "4",
+          "fee": 1.2
+        }
+      ]
+    },
+    {
+      "id": "watch-ultra-4",
+      "category": "watch",
+      "subcategory": "ultra",
+      "seriesKey": "watch-ultra",
+      "generation": 4,
+      "name": "Apple Watch Ultra 4",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-ultra-4.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Ultra 4"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-ultra",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 158,
+      "variants": [
+        {
+          "id": "1",
+          "label": "49 mm · Titan · GPS + Cellular",
+          "gross": 800,
+          "fee": 1.2,
+          "options": {
+            "Größe": "49 mm",
+            "Material": "Titan",
+            "Verbindung": "GPS + Cellular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-hermes-series-12",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes",
+      "generation": 12,
+      "name": "Apple Watch Hermès Series 12",
+      "subtitle": "42 oder 46 mm",
+      "imageUrl": "watch-hermes-series-12.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Hermès"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 156,
+      "variants": [
+        {
+          "id": "1",
+          "label": "42 mm · GPS + Cellular · Hermès",
+          "gross": 1050,
+          "fee": 1.2,
+          "options": {
+            "Größe": "42 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-hermes-ultra-4",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes-ultra",
+      "generation": 4,
+      "name": "Apple Watch Hermès Ultra 4",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-hermes-ultra-4.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Hermès Ultra"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes-ultra",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 154,
+      "variants": [
+        {
+          "id": "1",
+          "label": "49 mm · GPS + Cellular · Hermès",
+          "gross": 1100,
+          "fee": 1.2,
+          "options": {
+            "Größe": "49 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "airpods-5",
+      "category": "airpods",
+      "subcategory": "standard",
+      "seriesKey": "airpods",
+      "generation": 5,
+      "name": "AirPods 5",
+      "subtitle": "Erhältlich ab 18.9.",
+      "imageUrl": "airpods-5.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Vorbestellung",
+        "ANC"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-airpods/airpods-5",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 155,
+      "variants": [
+        {
+          "id": "1",
+          "label": "Standard",
+          "gross": 149,
+          "fee": 0,
+          "options": {
+            "Modell": "Standard"
+          },
+          "epp": {
+            "17": 123.76,
+            "27": 108.29
+          }
+        },
+        {
+          "id": "2",
+          "label": "mit kabellosem Ladecase",
+          "gross": 169,
+          "fee": 0,
+          "options": {
+            "Modell": "mit kabellosem Ladecase"
+          },
+          "epp": {
+            "17": 140.42,
+            "27": 123.76
+          }
+        }
       ]
     }
   ],
