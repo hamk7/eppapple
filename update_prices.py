@@ -17,10 +17,11 @@ ROOT = Path(__file__).resolve().parent
 CURRENT = ROOT / 'current.json'
 SUMMARY = ROOT / 'history-summary.json'
 HISTORY = ROOT / 'price-history'
+ACCESSORY_AUDIT = ROOT / 'accessory-audit-2026-09-18.json'
 
 S = requests.Session()
 S.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 AppleRabattBot/5.0',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 AppleRabattBot/7.0',
     'Accept-Language': 'de-DE,de;q=0.9,en;q=0.5',
 })
 
@@ -53,11 +54,11 @@ ACCESSORY_CATEGORIES = {
     'headphones-speakers': ACCESS + '/headphones-speakers',
     'software': ACCESS + '/software',
     'office': ACCESS + '/office',
-    'storage': ACCESS + '/storage',
+    'storage': ACCESS + '/drives-storage',
     'content': ACCESS + '/content-creation',
     'gaming': ACCESS + '/gaming',
     'cases-protection': ACCESS + '/cases-protection',
-    'smart-home': ACCESS + '/smart-home',
+    'smart-home': ACCESS + '/homekit',
     'airtag': ACCESS + '/airtag',
     'beats': ACCESS + '/beats',
 }
@@ -439,7 +440,11 @@ def deep_configs(d):
                 if ident in merged:
                     # Keep exact EPP/reference metadata but refresh public gross/source details.
                     base = merged[ident]
+                    old_gross = base.get('gross')
                     base['gross'] = v['gross']
+                    if old_gross != v['gross']:
+                        base.pop('epp', None)
+                        base.pop('eppBaseGross', None)
                     base['sourceUrl'] = v.get('sourceUrl', base.get('sourceUrl'))
                     if v.get('label'): base['label'] = v['label']
                     base['options'] = v.get('options') or base.get('options', {})
@@ -461,6 +466,87 @@ def acc_links(h: str, base: str, labels=CAT_LABELS):
         if lab in labels:
             out[labels[lab]] = urljoin(base, a['href'])
     return out
+
+
+def norm_name(s: str | None):
+    t = clean(s).lower()
+    t = t.replace('‑','-').replace('–','-').replace('—','-').replace('™','').replace('®','')
+    t = re.sub(r'\s+', ' ', t)
+    return t.strip()
+
+
+def facet_links(h: str, base: str, max_links=90):
+    """Collect useful single-filter pages (types/brands/features) for exhaustive accessory discovery.
+
+    Apple category landing pages often expose only the first product grid. Individual facet pages
+    expose additional SKUs. We intentionally avoid deep combination URLs and old device-compatibility
+    filters where possible to keep the scan fast enough for GitHub Actions.
+    """
+    s = soup(h)
+    bp = urlparse(base).path.rstrip('/')
+    out = []
+    skip_words = ('iphone ', 'ipad ', 'macbook', 'mac mini', 'mac studio', 'mac pro', 'imac',
+                  'apple vision', 'airpods ', 'apple tv', 'ipod ', 'generation', 'retina')
+    color_words = {'schwarz','blau','braun','pink','violett','rot','weiß','weiss','gelb','grün','gruen','orange','mehrfarbig'}
+    for a in s.find_all('a', href=True):
+        lab = clean(a.get_text(' ', strip=True))
+        if not lab or len(lab) > 80:
+            continue
+        low = lab.lower()
+        if any(w in low for w in skip_words) or low in color_words:
+            continue
+        u = urljoin(base, a['href']).split('?')[0]
+        p = urlparse(u)
+        if p.netloc and p.netloc != urlparse(base).netloc:
+            continue
+        path = p.path.rstrip('/')
+        if not path.startswith(bp + '/') or '/shop/product/' in path:
+            continue
+        rest = path[len(bp)+1:]
+        if not rest or rest.count('/') > 0:
+            continue
+        if u not in out:
+            out.append(u)
+        if len(out) >= max_links:
+            break
+    return out
+
+
+def infer_accessory_subcat(name: str):
+    n = norm_name(name)
+    if any(x in n for x in ('case','cover','folio','wallet','hülle','huelle','bumper','grip','sling','organizer','crossbody','trageband','ohrpolster','ohreinsätze','ohreinsaetze')):
+        return 'cases-protection'
+    if any(x in n for x in ('lade','charger','powerbank','power adapter','netzteil','adapter','kabel','dock','batterie','battery','magsafe','usb-c','thunderbolt','airfly')):
+        return 'chargers-adapters'
+    if any(x in n for x in ('keyboard','tastatur','mouse','maus','trackpad','combo touch','keys-to-go','rugged folio')):
+        return 'mice-keyboards'
+    if any(x in n for x in ('airpods','earpods','beats','kopfhörer','kopfhoerer','lautsprecher','pill')):
+        return 'headphones-speakers'
+    if any(x in n for x in ('ssd','festplatte','raid','drive','speicher')):
+        return 'storage'
+    if any(x in n for x in ('camera','kamera','stativ','tripod','pencil','drucker','micro','mic','selfie','pro dock','prodock')):
+        return 'content'
+    if any(x in n for x in ('withings','hidrate','gesundheit','blutdruck','körperwaage','koerperwaage')):
+        return 'health-fitness'
+    if any(x in n for x in ('controller','gaming','dualsense','backbone','steelseries')):
+        return 'gaming'
+    if any(x in n for x in ('homekit','matter','smart lock','hue','nanoleaf','eve ','aqara','nuki','thermo','weather','water guard')):
+        return 'smart-home'
+    if any(x in n for x in ('microsoft','filemaker')):
+        return 'software'
+    if 'airtag' in n:
+        return 'airtag'
+    if 'beats' in n:
+        return 'beats'
+    return 'office'
+
+
+def load_accessory_audit():
+    try:
+        a = load(ACCESSORY_AUDIT)
+        return a, {norm_name(x) for x in a.get('knownUniqueNames', [])}
+    except Exception:
+        return {}, set()
 
 
 def acc_cards(h: str, url: str, allow_missing_price=False):
@@ -511,11 +597,44 @@ def accessory_detail(href: str, fallback_name: str = '', fallback_img: str = '')
     s = soup(h)
     title = clean((s.find('h1') or s.find('title')).get_text(' ', strip=True)) if (s.find('h1') or s.find('title')) else fallback_name
     title = re.sub(r'\s+[-–]\s+Apple.*$', '', title).strip()
-    text = clean((s.find('main') or s).get_text(' ', strip=True))
-    vals = all_prices(text)
-    # Product pages contain financing/trade-in values. Prefer the first plausible full price.
-    vals = [v for v in vals if v >= 5]
-    pr = vals[0] if vals else None
+
+    # Prefer structured product prices over incidental financing/trade-in values.
+    pr = None
+    for attrs in ({'property':'product:price:amount'}, {'itemprop':'price'}, {'name':'price'}):
+        t = s.find('meta', attrs=attrs)
+        if t and t.get('content'):
+            try:
+                pr = float(str(t.get('content')).replace('.', '').replace(',', '.')) if ',' in str(t.get('content')) else float(t.get('content'))
+                if pr >= 5: break
+            except Exception:
+                pr = None
+    if pr is None:
+        for tag in s.find_all(attrs={'itemprop':'price'}):
+            raw = tag.get('content') or tag.get_text(' ', strip=True)
+            val = price(raw)
+            if val and val >= 5:
+                pr = val; break
+    if pr is None:
+        # JSON-LD often carries an exact offers.price.
+        for sc in s.find_all('script', attrs={'type':'application/ld+json'}):
+            try:
+                obj = json.loads(sc.string or '{}')
+                stack = obj if isinstance(obj, list) else [obj]
+                for node in stack:
+                    if isinstance(node, dict):
+                        off = node.get('offers')
+                        if isinstance(off, dict) and off.get('price') is not None:
+                            val = float(str(off['price']).replace(',', '.'))
+                            if val >= 5:
+                                pr = val; break
+                if pr is not None: break
+            except Exception:
+                pass
+    if pr is None:
+        text = clean((s.find('main') or s).get_text(' ', strip=True))
+        vals = [v for v in all_prices(text) if v >= 5]
+        # Prefer whole retail prices over small monthly instalments where possible.
+        pr = max(vals[:8], default=None) if vals else None
     return title or fallback_name, pr, image(h, href) or fallback_img
 
 
@@ -555,16 +674,41 @@ def refresh_accessories(d):
     cards = {}
     catfor = {}
     compatfor = {}
+    audit, known_names = load_accessory_audit()
+    d['accessoryCatalogAudit'] = {
+        'auditedAt': audit.get('auditedAt', '2026-09-18'),
+        'directCategoryUniqueCount': int(audit.get('categoryPageUniqueCount', 0) or 0),
+        'knownMinimumUniqueCount': int(audit.get('knownMinimumUniqueCount', 0) or 0),
+        'note': audit.get('note', '')
+    }
 
-    # Each public category page is queried directly. This captures far more than the PDF seed.
+    # Each public category page is queried directly. Then useful one-filter facet pages
+    # (product type / brand / feature) are crawled in parallel. This is what turns the
+    # 30-card landing pages into a much more complete store inventory.
+    facet_jobs = []
     for cat, u in filters.items():
         try:
-            cc = acc_cards(get(u), u, True)
+            h = get(u)
+            cc = acc_cards(h, u, True)
             cards.update(cc)
             for x in cc:
                 catfor[x] = cat
+            for fu in facet_links(h, u):
+                facet_jobs.append((cat, fu))
         except Exception as e:
             print('acc cat', cat, repr(e))
+    if facet_jobs:
+        with ThreadPoolExecutor(max_workers=14) as ex:
+            futs = {ex.submit(get, u):(cat,u) for cat,u in facet_jobs[:650]}
+            for fut in as_completed(futs):
+                cat,u = futs[fut]
+                try:
+                    cc = acc_cards(fut.result(), u, True)
+                    cards.update(cc)
+                    for x in cc:
+                        catfor.setdefault(x, cat)
+                except Exception:
+                    pass
 
     # Device filters are used for search compatibility tags.
     for comp, u in productfilters.items():
@@ -578,11 +722,19 @@ def refresh_accessories(d):
 
     cards.update(acc_cards(allh, ACCESS, True))
 
+    # The Von-Apple page is also a catalog source, not just a brand-classification helper.
+    try:
+        made_cards = acc_cards(madeh, MADE, True) if 'madeh' in locals() else {}
+        cards.update(made_cards)
+    except Exception:
+        pass
+
     existing = {
         p.get('sourceUrl', '').split('?')[0]: p
         for p in d.get('products', [])
         if p.get('category') == 'accessories' and p.get('sourceUrl')
     }
+    existing_by_name = {norm_name(p.get('name')):p for p in d.get('products', []) if p.get('category') == 'accessories'}
     seen = set()
     unresolved = []
 
@@ -593,9 +745,9 @@ def refresh_accessories(d):
         if pr is None:
             unresolved.append((href, name, img))
             continue
-        cat = catfor.get(href) or ('airtag' if 'airtag' in ln else ('beats' if 'beats' in ln else 'office'))
+        cat = catfor.get(href) or infer_accessory_subcat(name)
         brand = 'apple' if looks_apple_product(name, href, made_hrefs) else 'third-party'
-        p = existing.get(href)
+        p = existing.get(href) or existing_by_name.get(norm_name(name))
         if p is None:
             p = {
                 'id': 'acc-' + slug(href.split('/product/')[-1]), 'category': 'accessories',
@@ -607,7 +759,7 @@ def refresh_accessories(d):
             d['products'].append(p)
             existing[href] = p
         else:
-            p.update({'name': name, 'subcategory': cat, 'brandType': brand, 'available': True})
+            p.update({'name': name, 'subcategory': cat, 'brandType': brand, 'available': True, 'sourceUrl': href})
             p.setdefault('tags', [])
             p['compat'] = sorted(set(p.get('compat', [])) | compatfor.get(href, set()))
             if img and (not p.get('imageUrl') or str(p.get('imageUrl')).startswith('http')):
@@ -617,6 +769,7 @@ def refresh_accessories(d):
                 if abs(float(old.get('gross', 0)) - pr) > .001:
                     old['gross'] = pr
                     old.pop('epp', None)
+                    old.pop('eppBaseGross', None)
         seen.add(p['id'])
 
     # If Apple rendered prices only client-side, resolve public product pages. A full
@@ -627,7 +780,7 @@ def refresh_accessories(d):
         deep_age = datetime.now().astimezone() - datetime.fromisoformat(deep_last) if deep_last else timedelta(days=99)
     except Exception:
         deep_age = timedelta(days=99)
-    detail_limit = 320 if deep_age >= timedelta(hours=20) else 35
+    detail_limit = 900 if deep_age >= timedelta(hours=20) else 120
     todo = []
     for href, name, img in unresolved:
         p = existing.get(href)
@@ -638,7 +791,7 @@ def refresh_accessories(d):
     todo = todo[:detail_limit]
     resolved = []
     if todo:
-        with ThreadPoolExecutor(max_workers=10) as ex:
+        with ThreadPoolExecutor(max_workers=16) as ex:
             futs = {ex.submit(accessory_detail, href, name, img):(href,name,img) for href,name,img in todo}
             for fut in as_completed(futs):
                 href, name, img = futs[fut]
@@ -648,9 +801,9 @@ def refresh_accessories(d):
                 except Exception:
                     pass
     for href, n2, pr, im2 in resolved:
-        p = existing.get(href)
+        p = existing.get(href) or existing_by_name.get(norm_name(n2))
         ln = n2.lower()
-        cat = catfor.get(href) or ('airtag' if 'airtag' in ln else ('beats' if 'beats' in ln else 'office'))
+        cat = catfor.get(href) or infer_accessory_subcat(n2)
         brand = 'apple' if looks_apple_product(n2, href, made_hrefs) else 'third-party'
         if p is None:
             p = {
@@ -662,19 +815,32 @@ def refresh_accessories(d):
             }
             d['products'].append(p); existing[href] = p
         else:
-            p.update({'name': n2, 'subcategory': cat, 'brandType': brand, 'available': True})
+            p.update({'name': n2, 'subcategory': cat, 'brandType': brand, 'available': True, 'sourceUrl': href})
             if im2 and (not p.get('imageUrl') or str(p.get('imageUrl')).startswith('http')): p['imageUrl'] = im2
-            if p.get('variants'): p['variants'][0]['gross'] = pr
+            if p.get('variants'):
+                old = p['variants'][0]
+                if abs(float(old.get('gross', 0)) - pr) > .001:
+                    old['gross'] = pr
+                    old.pop('epp', None)
+                    old.pop('eppBaseGross', None)
+                    old.pop('eppBaseGross', None)
         seen.add(p['id'])
     if deep_age >= timedelta(hours=20):
         d['accessoriesDeepAt'] = now()
 
-    if len(seen) > 10:
+    if len(seen) > 120:
         for p in d.get('products', []):
             if p.get('category') == 'accessories' and p.get('autoDiscovered'):
                 p['available'] = p['id'] in seen
     d['accessoriesLastScanAt'] = now()
-    d['accessoriesDetected'] = len(seen)
+    available_acc = [p for p in d.get('products', []) if p.get('category') == 'accessories' and p.get('available', True) and p.get('variants')]
+    d['accessoriesDetected'] = len(available_acc)
+    detected_names = {norm_name(p.get('name')) for p in available_acc}
+    if known_names:
+        missing = sorted(known_names - detected_names)
+        d['accessoryAuditKnownMatched'] = len(known_names) - len(missing)
+        d['accessoryAuditKnownMissing'] = missing
+        d['accessoryAuditKnownComplete'] = not missing
 
 
 def archive(old, new):
@@ -735,8 +901,8 @@ def main():
     old = load(CURRENT)
     new = deepcopy(old)
     new['lastCheckedAt'] = now()
-    new['schemaVersion'] = max(int(new.get('schemaVersion', 1) or 1), 5)
-    new['calculationVersion'] = '5.0-round-discount-to-cents-then-euro'
+    new['schemaVersion'] = max(int(new.get('schemaVersion', 1) or 1), 7)
+    new['calculationVersion'] = '7.0-round-discount-to-cents-then-euro-accessory-audit'
 
     safe_step('levies', refresh_levies, new)
     safe_step('models', discover_new_models, new)

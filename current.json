@@ -1,16 +1,16 @@
 {
-  "schemaVersion": 5,
-  "sourceLabel": "Apple Store Deutschland + manuell optimierte Zubehörbilder",
-  "lastCheckedAt": "2026-09-13T16:15:00+02:00",
-  "updatedAt": "2026-09-14T18:20:02+02:00",
-  "lastChangedAt": "2026-09-14T18:20:02+02:00",
+  "schemaVersion": 7,
+  "sourceLabel": "Apple Store Deutschland · Live-Sync + Zubehör-Vollständigkeitsprüfung",
+  "lastCheckedAt": "2026-09-14T22:15:00+02:00",
+  "updatedAt": "2026-09-14T22:15:00+02:00",
+  "lastChangedAt": "2026-09-14T22:15:00+02:00",
   "vat": 0.19,
   "levies": {
     "iphone": {
-      "amount": 5
+      "amount": 5.0
     },
     "ipad": {
-      "amount": 7
+      "amount": 7.0
     },
     "mac": {
       "amount": 10.55
@@ -316,7 +316,7 @@
             "27": 949.62
           },
           "id": "1",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "512 GB",
@@ -325,7 +325,7 @@
             "Speicher": "512 GB"
           },
           "id": "2",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "1 TB",
@@ -334,7 +334,7 @@
             "Speicher": "1 TB"
           },
           "id": "3",
-          "fee": 5
+          "fee": 5.0
         }
       ],
       "availabilityStatus": "Vorgänger"
@@ -364,7 +364,7 @@
             "27": 1059.1
           },
           "id": "1",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "512 GB",
@@ -373,7 +373,7 @@
             "Speicher": "512 GB"
           },
           "id": "2",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "1 TB",
@@ -382,7 +382,7 @@
             "Speicher": "1 TB"
           },
           "id": "3",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "2 TB",
@@ -391,7 +391,7 @@
             "Speicher": "2 TB"
           },
           "id": "4",
-          "fee": 5
+          "fee": 5.0
         }
       ],
       "availabilityStatus": "Vorgänger"
@@ -416,12 +416,8 @@
           "options": {
             "Speicher": "256 GB"
           },
-          "epp": {
-            "17": 996.03,
-            "27": 877.03
-          },
           "id": "1",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "512 GB",
@@ -429,20 +425,17 @@
           "options": {
             "Speicher": "512 GB"
           },
-          "epp": {
-            "17": 1204.28
-          },
           "id": "2",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "1 TB",
-          "gross": 1799,
+          "gross": 2049,
           "options": {
             "Speicher": "1 TB"
           },
           "id": "3",
-          "fee": 5
+          "fee": 5.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -468,12 +461,8 @@
           "options": {
             "Speicher": "256 GB"
           },
-          "epp": {
-            "17": 788.97,
-            "27": 694.96
-          },
           "id": "1",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "512 GB",
@@ -482,7 +471,7 @@
             "Speicher": "512 GB"
           },
           "id": "2",
-          "fee": 5
+          "fee": 5.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -504,25 +493,21 @@
       "variants": [
         {
           "label": "256 GB",
-          "gross": 699,
+          "gross": 849,
           "options": {
             "Speicher": "256 GB"
           },
-          "epp": {
-            "17": 580.72,
-            "27": 511.7
-          },
           "id": "1",
-          "fee": 5
+          "fee": 5.0
         },
         {
           "label": "512 GB",
-          "gross": 949,
+          "gross": 1099,
           "options": {
             "Speicher": "512 GB"
           },
           "id": "2",
-          "fee": 5
+          "fee": 5.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -546,20 +531,16 @@
           "id": "1",
           "label": "128 GB",
           "gross": 999,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "128 GB"
-          },
-          "epp": {
-            "17": 705.67,
-            "27": 621.18
           }
         },
         {
           "id": "2",
           "label": "256 GB",
           "gross": 1129,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "256 GB"
           }
@@ -568,7 +549,7 @@
           "id": "3",
           "label": "512 GB",
           "gross": 1379,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "512 GB"
           }
@@ -598,7 +579,7 @@
           "id": "1",
           "label": "128 GB",
           "gross": 949,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "128 GB"
           }
@@ -607,7 +588,7 @@
           "id": "2",
           "label": "256 GB",
           "gross": 1079,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "256 GB"
           }
@@ -616,7 +597,7 @@
           "id": "3",
           "label": "512 GB",
           "gross": 1329,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "512 GB"
           }
@@ -650,7 +631,8 @@
           "epp": {
             "17": 1079.33,
             "27": 950.81
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 512 GB · Wi-Fi · Standardglas",
@@ -660,7 +642,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "512 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi · Standardglas",
@@ -670,7 +653,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "1 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 2 TB · Wi-Fi · Standardglas",
@@ -680,7 +664,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "2 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi · Nanotexturglas",
@@ -690,7 +675,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "1 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 2 TB · Wi-Fi · Nanotexturglas",
@@ -700,7 +686,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "2 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 256 GB · Wi-Fi + Cellular · Standardglas",
@@ -710,7 +697,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "256 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 512 GB · Wi-Fi + Cellular · Standardglas",
@@ -720,7 +708,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "512 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi + Cellular · Standardglas",
@@ -730,7 +719,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "1 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 2 TB · Wi-Fi + Cellular · Standardglas",
@@ -740,7 +730,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "2 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
@@ -750,7 +741,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "1 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "11\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
@@ -760,7 +752,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "2 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 256 GB · Wi-Fi · Standardglas",
@@ -770,7 +763,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "256 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 512 GB · Wi-Fi · Standardglas",
@@ -780,7 +774,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "512 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi · Standardglas",
@@ -790,7 +785,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "1 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 2 TB · Wi-Fi · Standardglas",
@@ -800,7 +796,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "2 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi · Nanotexturglas",
@@ -810,7 +807,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "1 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 2 TB · Wi-Fi · Nanotexturglas",
@@ -820,7 +818,8 @@
             "Verbindung": "Wi-Fi",
             "Speicher": "2 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 256 GB · Wi-Fi + Cellular · Standardglas",
@@ -830,7 +829,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "256 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 512 GB · Wi-Fi + Cellular · Standardglas",
@@ -840,7 +840,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "512 GB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi + Cellular · Standardglas",
@@ -850,7 +851,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "1 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 2 TB · Wi-Fi + Cellular · Standardglas",
@@ -860,7 +862,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "2 TB",
             "Glas": "Standardglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
@@ -870,7 +873,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "1 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         },
         {
           "label": "13\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
@@ -880,7 +884,8 @@
             "Verbindung": "Wi-Fi + Cellular",
             "Speicher": "2 TB",
             "Glas": "Nanotexturglas"
-          }
+          },
+          "fee": 7.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -913,7 +918,7 @@
             "27": 585.48
           },
           "id": "1",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 256 GB · Wi-Fi",
@@ -924,7 +929,7 @@
             "Speicher": "256 GB"
           },
           "id": "2",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 512 GB · Wi-Fi",
@@ -935,7 +940,7 @@
             "Speicher": "512 GB"
           },
           "id": "3",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi",
@@ -946,7 +951,7 @@
             "Speicher": "1 TB"
           },
           "id": "4",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 128 GB · Wi-Fi + Cellular",
@@ -957,7 +962,7 @@
             "Speicher": "128 GB"
           },
           "id": "5",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 256 GB · Wi-Fi + Cellular",
@@ -968,7 +973,7 @@
             "Speicher": "256 GB"
           },
           "id": "6",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 512 GB · Wi-Fi + Cellular",
@@ -979,7 +984,7 @@
             "Speicher": "512 GB"
           },
           "id": "7",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "11\" · 1 TB · Wi-Fi + Cellular",
@@ -990,7 +995,7 @@
             "Speicher": "1 TB"
           },
           "id": "8",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 128 GB · Wi-Fi",
@@ -1001,7 +1006,7 @@
             "Speicher": "128 GB"
           },
           "id": "9",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 256 GB · Wi-Fi",
@@ -1012,7 +1017,7 @@
             "Speicher": "256 GB"
           },
           "id": "10",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 512 GB · Wi-Fi",
@@ -1023,7 +1028,7 @@
             "Speicher": "512 GB"
           },
           "id": "11",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi",
@@ -1034,7 +1039,7 @@
             "Speicher": "1 TB"
           },
           "id": "12",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 128 GB · Wi-Fi + Cellular",
@@ -1045,7 +1050,7 @@
             "Speicher": "128 GB"
           },
           "id": "13",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 256 GB · Wi-Fi + Cellular",
@@ -1056,7 +1061,7 @@
             "Speicher": "256 GB"
           },
           "id": "14",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 512 GB · Wi-Fi + Cellular",
@@ -1067,7 +1072,7 @@
             "Speicher": "512 GB"
           },
           "id": "15",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "13\" · 1 TB · Wi-Fi + Cellular",
@@ -1078,7 +1083,7 @@
             "Speicher": "1 TB"
           },
           "id": "16",
-          "fee": 7
+          "fee": 7.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1110,7 +1115,7 @@
             "27": 366.52
           },
           "id": "1",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "256 GB · Wi-Fi",
@@ -1120,7 +1125,7 @@
             "Speicher": "256 GB"
           },
           "id": "2",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "512 GB · Wi-Fi",
@@ -1130,7 +1135,7 @@
             "Speicher": "512 GB"
           },
           "id": "3",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "128 GB · Wi-Fi + Cellular",
@@ -1140,7 +1145,7 @@
             "Speicher": "128 GB"
           },
           "id": "4",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "256 GB · Wi-Fi + Cellular",
@@ -1150,7 +1155,7 @@
             "Speicher": "256 GB"
           },
           "id": "5",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "512 GB · Wi-Fi + Cellular",
@@ -1160,7 +1165,7 @@
             "Speicher": "512 GB"
           },
           "id": "6",
-          "fee": 7
+          "fee": 7.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1192,7 +1197,7 @@
             "27": 497.42
           },
           "id": "1",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "256 GB · Wi-Fi",
@@ -1202,7 +1207,7 @@
             "Speicher": "256 GB"
           },
           "id": "2",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "512 GB · Wi-Fi",
@@ -1212,7 +1217,7 @@
             "Speicher": "512 GB"
           },
           "id": "3",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "128 GB · Wi-Fi + Cellular",
@@ -1222,7 +1227,7 @@
             "Speicher": "128 GB"
           },
           "id": "4",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "256 GB · Wi-Fi + Cellular",
@@ -1232,7 +1237,7 @@
             "Speicher": "256 GB"
           },
           "id": "5",
-          "fee": 7
+          "fee": 7.0
         },
         {
           "label": "512 GB · Wi-Fi + Cellular",
@@ -1242,7 +1247,7 @@
             "Speicher": "512 GB"
           },
           "id": "6",
-          "fee": 7
+          "fee": 7.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1267,10 +1272,6 @@
           "gross": 799,
           "options": {
             "Speicher": "256 GB"
-          },
-          "epp": {
-            "17": 665.86,
-            "27": 586.13
           },
           "id": "1",
           "fee": 10.55
@@ -1302,10 +1303,6 @@
             "Arbeitsspeicher": "16 GB",
             "Speicher": "512 GB"
           },
-          "epp": {
-            "17": 1163.28,
-            "27": 1025.24
-          },
           "id": "1",
           "fee": 10.55
         }
@@ -1335,10 +1332,6 @@
             "Chip": "M5",
             "Arbeitsspeicher": "16 GB",
             "Speicher": "1 TB"
-          },
-          "epp": {
-            "17": 1827.3,
-            "27": 1608.34
           },
           "id": "1",
           "fee": 10.55
@@ -1371,10 +1364,6 @@
             "Display": "Standardglas",
             "Basis": "Standfuß"
           },
-          "epp": {
-            "17": 1495.29,
-            "27": 1316.79
-          },
           "id": "1",
           "fee": 10.55
         }
@@ -1405,10 +1394,6 @@
             "Speicher": "256 GB",
             "Ethernet": "2,5 Gigabit"
           },
-          "epp": {
-            "17": 872.92,
-            "27": 769.39
-          },
           "id": "1",
           "fee": 10.55
         },
@@ -1425,7 +1410,7 @@
           "fee": 10.55
         }
       ],
-      "availabilityStatus": "Jetzt kaufen",
+      "availabilityStatus": "Vorbestellung",
       "featuredRank": 136
     },
     {
@@ -1450,10 +1435,6 @@
             "Arbeitsspeicher": "36 GB",
             "Speicher": "512 GB"
           },
-          "epp": {
-            "17": 2491.32,
-            "27": 2192.63
-          },
           "id": "1",
           "fee": 10.55
         },
@@ -1469,7 +1450,7 @@
           "fee": 10.55
         }
       ],
-      "availabilityStatus": "Jetzt kaufen",
+      "availabilityStatus": "Vorbestellung",
       "featuredRank": 134
     },
     {
@@ -1493,12 +1474,8 @@
             "Glas": "Standardglas",
             "Standfuß": "Neigungsverstellbarer Standfuß"
           },
-          "epp": {
-            "17": 1410.15,
-            "27": 1239.98
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Standardglas · VESA Mount Adapter",
@@ -1508,7 +1485,7 @@
             "Standfuß": "VESA Mount Adapter"
           },
           "id": "2",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Standardglas · Neigungs- und höhenverstellbarer Standfuß",
@@ -1518,7 +1495,7 @@
             "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
           },
           "id": "3",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Nanotexturglas · Neigungsverstellbarer Standfuß",
@@ -1528,7 +1505,7 @@
             "Standfuß": "Neigungsverstellbarer Standfuß"
           },
           "id": "4",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Nanotexturglas · VESA Mount Adapter",
@@ -1538,7 +1515,7 @@
             "Standfuß": "VESA Mount Adapter"
           },
           "id": "5",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Nanotexturglas · Neigungs- und höhenverstellbarer Standfuß",
@@ -1548,7 +1525,7 @@
             "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
           },
           "id": "6",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1575,42 +1552,38 @@
             "Glas": "Standardglas",
             "Standfuß": "VESA Mount Adapter"
           },
-          "epp": {
-            "17": 2571.59,
-            "27": 2262.19
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Nanotexturglas · VESA Mount Adapter",
-          "gross": 3599,
+          "gross": 3399,
           "options": {
             "Glas": "Nanotexturglas",
             "Standfuß": "VESA Mount Adapter"
           },
           "id": "2",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Standardglas · Pro Stand",
-          "gross": 4298,
+          "gross": 3499,
           "options": {
             "Glas": "Standardglas",
             "Standfuß": "Pro Stand"
           },
           "id": "3",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "Nanotexturglas · Pro Stand",
-          "gross": 4798,
+          "gross": 3799,
           "options": {
             "Glas": "Nanotexturglas",
             "Standfuß": "Pro Stand"
           },
           "id": "4",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1708,12 +1681,13 @@
             "Armband": "Sportarmband"
           },
           "calcGross": 268,
+          "id": "1",
+          "fee": 1.2,
           "epp": {
             "17": 222.77,
             "27": 196.59
           },
-          "id": "1",
-          "fee": 1.2
+          "eppBaseGross": 269
         },
         {
           "label": "44 mm · GPS · Sportarmband",
@@ -1723,11 +1697,12 @@
             "Verbindung": "GPS",
             "Armband": "Sportarmband"
           },
+          "id": "2",
+          "fee": 1.2,
           "epp": {
             "17": 247.77
           },
-          "id": "2",
-          "fee": 1.2
+          "eppBaseGross": 299
         },
         {
           "label": "40 mm · GPS + Cellular · Sportarmband",
@@ -1829,7 +1804,8 @@
             "27": 1021.26
           },
           "id": "1",
-          "fee": 1.2
+          "fee": 1.2,
+          "eppBaseGross": 1399
         },
         {
           "label": "46 mm · Titan Silber · Hermès Armband",
@@ -1875,7 +1851,8 @@
             "27": 1153.35
           },
           "id": "1",
-          "fee": 1.2
+          "fee": 1.2,
+          "eppBaseGross": 1579
         }
       ],
       "availabilityStatus": "Vorgänger"
@@ -1896,37 +1873,30 @@
       "variants": [
         {
           "label": "256 GB",
-          "gross": 3999,
+          "gross": 3699,
           "options": {
             "Speicher": "256 GB"
           },
-          "epp": {
-            "17": 3318.91,
-            "27": 2919.07
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "512 GB",
-          "gross": 4219,
+          "gross": 3919,
           "options": {
             "Speicher": "512 GB"
           },
-          "epp": {
-            "17": 3502.17
-          },
           "id": "2",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "1 TB",
-          "gross": 4439,
+          "gross": 4139,
           "options": {
             "Speicher": "1 TB"
           },
           "id": "3",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1949,12 +1919,8 @@
         {
           "label": "Standard",
           "gross": 249,
-          "epp": {
-            "17": 207.06,
-            "27": 182.07
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -1985,7 +1951,7 @@
             "27": 108.29
           },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "AirPods 4 mit Aktiver Geräuschunterdrückung",
@@ -1994,10 +1960,10 @@
             "Modell": "Aktive Geräuschunterdrückung"
           },
           "id": "2",
-          "fee": 0
+          "fee": 0.0
         }
       ],
-      "availabilityStatus": "Jetzt kaufen",
+      "availabilityStatus": "Vorgänger / weiterhin gelistet",
       "featuredRank": 136
     },
     {
@@ -2017,12 +1983,8 @@
         {
           "label": "Standard",
           "gross": 579,
-          "epp": {
-            "17": 480.76,
-            "27": 422.45
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -2045,12 +2007,8 @@
         {
           "label": "Standard",
           "gross": 399,
-          "epp": {
-            "17": 330.82,
-            "27": 291.55
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -2073,12 +2031,8 @@
         {
           "label": "Standard",
           "gross": 139,
-          "epp": {
-            "17": 115.43,
-            "27": 101.15
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -2105,12 +2059,8 @@
             "Speicher": "64 GB",
             "Verbindung": "Wi-Fi"
           },
-          "epp": {
-            "17": 190.4,
-            "27": 166.6
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         },
         {
           "label": "128 GB · Wi-Fi + Ethernet",
@@ -2120,7 +2070,7 @@
             "Verbindung": "Wi-Fi + Ethernet"
           },
           "id": "2",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "availabilityStatus": "Jetzt kaufen",
@@ -2149,12 +2099,9 @@
       "variants": [
         {
           "label": "Standard",
-          "gross": 25,
-          "epp": {
-            "17": 20.23
-          },
+          "gross": 19,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2187,11 +2134,8 @@
         {
           "label": "Standard",
           "gross": 35,
-          "epp": {
-            "17": 28.56
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2224,11 +2168,8 @@
         {
           "label": "Standard",
           "gross": 49,
-          "epp": {
-            "17": 40.46
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2259,11 +2200,8 @@
         {
           "label": "Standard",
           "gross": 59,
-          "epp": {
-            "17": 48.79
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2294,11 +2232,8 @@
         {
           "label": "Standard",
           "gross": 29,
-          "epp": {
-            "17": 23.8
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2332,11 +2267,8 @@
         {
           "label": "Standard",
           "gross": 55,
-          "epp": {
-            "17": 45.22
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2369,11 +2301,8 @@
         {
           "label": "Standard",
           "gross": 79,
-          "epp": {
-            "17": 65.45
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2406,11 +2335,8 @@
         {
           "label": "Standard",
           "gross": 149,
-          "epp": {
-            "17": 123.76
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2443,11 +2369,8 @@
         {
           "label": "Standard",
           "gross": 179,
-          "epp": {
-            "17": 148.75
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2480,11 +2403,8 @@
         {
           "label": "Standard",
           "gross": 45,
-          "epp": {
-            "17": 36.89
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2517,11 +2437,8 @@
         {
           "label": "Standard",
           "gross": 65,
-          "epp": {
-            "17": 53.55
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2554,11 +2471,8 @@
         {
           "label": "Standard",
           "gross": 85,
-          "epp": {
-            "17": 70.21
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2591,11 +2505,8 @@
         {
           "label": "Standard",
           "gross": 119,
-          "epp": {
-            "17": 98.77
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2628,11 +2539,8 @@
         {
           "label": "Standard",
           "gross": 25,
-          "epp": {
-            "17": 20.23
-          },
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2664,12 +2572,9 @@
       "variants": [
         {
           "label": "Standard",
-          "gross": 25,
-          "epp": {
-            "17": 20.23
-          },
+          "gross": 24.95,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2702,12 +2607,9 @@
       "variants": [
         {
           "label": "Standard",
-          "gross": 35,
-          "epp": {
-            "17": 28.56
-          },
+          "gross": 34.95,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2741,9 +2643,8 @@
         {
           "label": "Standard",
           "gross": 39.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": []
@@ -2772,9 +2673,8 @@
         {
           "label": "Standard",
           "gross": 19.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2807,9 +2707,8 @@
         {
           "label": "Standard",
           "gross": 59.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2842,9 +2741,8 @@
         {
           "label": "Standard",
           "gross": 49.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": []
@@ -2873,9 +2771,8 @@
         {
           "label": "Standard",
           "gross": 59.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2908,9 +2805,8 @@
         {
           "label": "Standard",
           "gross": 69.95,
-          "epp": {},
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2940,7 +2836,7 @@
           "label": "Standard",
           "gross": 35,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2967,7 +2863,7 @@
           "label": "Standard",
           "gross": 119,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -2995,7 +2891,7 @@
           "label": "Standard",
           "gross": 85,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3024,7 +2920,7 @@
           "label": "Standard",
           "gross": 139,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3052,9 +2948,9 @@
       "variants": [
         {
           "label": "Standard",
-          "gross": 25,
+          "gross": 10,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": []
@@ -3081,7 +2977,7 @@
           "label": "Standard",
           "gross": 149,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3109,7 +3005,7 @@
           "label": "Standard",
           "gross": 69,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3138,7 +3034,7 @@
           "label": "Standard",
           "gross": 69,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3167,7 +3063,7 @@
           "label": "Standard",
           "gross": 399,
           "id": "1",
-          "fee": 0
+          "fee": 0.0
         }
       ],
       "compat": [
@@ -3182,7 +3078,7 @@
       "generation": 18,
       "name": "iPhone Duo",
       "subtitle": "7,6 Zoll innen · 5,4 Zoll außen",
-      "imageUrl": "iphone-duo.png",
+      "imageUrl": "iphone-duo-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3191,14 +3087,14 @@
       ],
       "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
       "autoConfig": false,
-      "availabilityStatus": "Vorbestellung",
+      "availabilityStatus": "Vorbestellung ab 16.10.",
       "featuredRank": 180,
       "variants": [
         {
           "id": "1",
           "label": "256 GB",
           "gross": 2299,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "256 GB"
           }
@@ -3207,7 +3103,7 @@
           "id": "2",
           "label": "512 GB",
           "gross": 2549,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "512 GB"
           }
@@ -3216,7 +3112,7 @@
           "id": "3",
           "label": "1 TB",
           "gross": 3049,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "1 TB"
           }
@@ -3225,7 +3121,7 @@
           "id": "4",
           "label": "2 TB",
           "gross": 3799,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "2 TB"
           }
@@ -3240,7 +3136,7 @@
       "generation": 18,
       "name": "iPhone 18 Pro",
       "subtitle": "6,3 Zoll",
-      "imageUrl": "iphone-18-pro.png",
+      "imageUrl": "iphone-18-pro-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3255,7 +3151,7 @@
           "id": "1",
           "label": "256 GB",
           "gross": 1449,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "256 GB"
           }
@@ -3264,7 +3160,7 @@
           "id": "2",
           "label": "512 GB",
           "gross": 1699,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "512 GB"
           }
@@ -3273,7 +3169,7 @@
           "id": "3",
           "label": "1 TB",
           "gross": 2199,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "1 TB"
           }
@@ -3282,7 +3178,7 @@
           "id": "4",
           "label": "2 TB",
           "gross": 2949,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "2 TB"
           }
@@ -3297,7 +3193,7 @@
       "generation": 18,
       "name": "iPhone 18 Pro Max",
       "subtitle": "6,9 Zoll",
-      "imageUrl": "iphone-18-pro.png",
+      "imageUrl": "iphone-18-pro-max-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3312,7 +3208,7 @@
           "id": "1",
           "label": "256 GB",
           "gross": 1599,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "256 GB"
           }
@@ -3321,7 +3217,7 @@
           "id": "2",
           "label": "512 GB",
           "gross": 1849,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "512 GB"
           }
@@ -3330,7 +3226,7 @@
           "id": "3",
           "label": "1 TB",
           "gross": 2349,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "1 TB"
           }
@@ -3339,7 +3235,7 @@
           "id": "4",
           "label": "2 TB",
           "gross": 3099,
-          "fee": 5,
+          "fee": 5.0,
           "options": {
             "Speicher": "2 TB"
           }
@@ -3354,7 +3250,7 @@
       "generation": 12,
       "name": "Apple Watch Series 12",
       "subtitle": "42 oder 46 mm",
-      "imageUrl": "watch-series-12.png",
+      "imageUrl": "watch-series-12-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3373,10 +3269,6 @@
             "Material": "Aluminium",
             "Verbindung": "GPS",
             "Armband": "Sportarmband"
-          },
-          "epp": {
-            "17": 372.71,
-            "27": 328.68
           },
           "id": "1",
           "fee": 1.2
@@ -3427,7 +3319,7 @@
       "generation": 4,
       "name": "Apple Watch Ultra 4",
       "subtitle": "49 mm · Titan",
-      "imageUrl": "watch-ultra-4.png",
+      "imageUrl": "watch-ultra-4-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3459,7 +3351,7 @@
       "generation": 12,
       "name": "Apple Watch Hermès Series 12",
       "subtitle": "42 oder 46 mm",
-      "imageUrl": "watch-hermes-series-12.png",
+      "imageUrl": "watch-hermes-series-12-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3491,7 +3383,7 @@
       "generation": 4,
       "name": "Apple Watch Hermès Ultra 4",
       "subtitle": "49 mm · Titan",
-      "imageUrl": "watch-hermes-ultra-4.png",
+      "imageUrl": "watch-hermes-ultra-4-20260914.png",
       "brandType": "apple",
       "tags": [
         "Neu",
@@ -3539,30 +3431,247 @@
           "id": "1",
           "label": "Standard",
           "gross": 149,
-          "fee": 0,
+          "fee": 0.0,
           "options": {
             "Modell": "Standard"
-          },
-          "epp": {
-            "17": 123.76,
-            "27": 108.29
           }
         },
         {
           "id": "2",
           "label": "mit kabellosem Ladecase",
           "gross": 169,
-          "fee": 0,
+          "fee": 0.0,
           "options": {
             "Modell": "mit kabellosem Ladecase"
-          },
-          "epp": {
-            "17": 140.42,
-            "27": 123.76
           }
         }
       ]
     }
   ],
-  "calculationVersion": "5.0-round-discount-to-cents-then-euro"
+  "calculationVersion": "6.0-current-gross-guarded-overrides",
+  "accessoryCatalogAudit": {
+    "auditedAt": "2026-09-18",
+    "directCategoryUniqueCount": 215,
+    "knownMinimumUniqueCount": 248,
+    "note": "Mindestens so viele unterschiedliche Zubehörartikel wurden auf den offiziellen Apple-DE-Kategorie-/Von-Apple-Seiten direkt beobachtet. Filterseiten können weitere Artikel enthalten; der GitHub-Workflow durchsucht diese zusätzlich."
+  },
+  "accessoriesDetected": 31,
+  "accessoryAuditKnownMatched": 35,
+  "accessoryAuditKnownMissing": [
+    "2er-Pack Beats USB‑C auf USB‑C Gewebte Kabel – Power-Schwarz",
+    "30W USB‑C Power Adapter",
+    "40 mm Sport Loop Guavepink",
+    "40 mm Sportarmband Guavepink - S/M",
+    "42 mm Sportarmband Hellrosa - S/M",
+    "46 mm Black Unity Geflochtenes Solo Loop - Unity Connection - Größe 0",
+    "46 mm Sport Loop Graublau",
+    "46 mm Sport Loop Pride Edition",
+    "46 mm Sportarmband Clementine - M/L",
+    "96W USB‑C Power Adapter (Netzteil)",
+    "AirPods 4",
+    "AirPods 4 mit Aktiver Geräuschunterdrückung",
+    "AirPods Max 2",
+    "AirPods Max Ohrpolster – Mitternacht",
+    "AirPods Pro 2 Ohreinsätze − 4 Paar",
+    "AirPods Pro 3",
+    "AirPods Pro 3 Ohreinsätze - 2 Sets (XXS)",
+    "AirPods Pro 3 Ohreinsätze − 5 Paar",
+    "Apogee Duet 3",
+    "Apogee Jam X",
+    "Apple Pencil (1. Generation)",
+    "Apple Pencil (2. Generation)",
+    "Apple Pencil (USB-C)",
+    "Apple Vision Pro Batterie",
+    "Aqara G100 Innenkamera",
+    "Aqara G410 Türklingel Kamera-Hub",
+    "Aqara G5 Pro Outdoor Kamera-Hub",
+    "Aqara Hub M3 Router",
+    "Backbone One Mobile Gaming Controller (USB‑C) – 2. Generation",
+    "Backbone Pro Mobile Gaming Controller",
+    "Beats Flex – Kabellose In-Ear Kopfhörer für den ganzen Tag – Yuzugelb",
+    "Beats iPhone 17e Case mit MagSafe – Felsblau",
+    "Beats Pill – Kabelloser Bluetooth® Lautsprecher – Champagner",
+    "Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Wolkenrosa",
+    "Beats Solo Buds – Komplett kabellose In-Ear Kopfhörer – Transparent-Rot",
+    "Beats Studio Buds + Komplett kabellose Noise Cancelling In-Ear Kopfhörer – Cremeweiß",
+    "Beats Studio Pro kabellose Kopfhörer – Sandstein",
+    "Beats USB‑A auf USB‑C Gewebtes Kabel (1,5 m) – Powerpink",
+    "Beats USB‑C auf USB‑C Gewebtes Kabel (1,5 m) – Powerpink",
+    "Beats USB‑C auf USB‑C Gewebtes Kabel (3 m) – Powerpink",
+    "Beats USB‑C auf USB‑C Gewebtes kurzes Kabel (20 cm) – Power-Schwarz",
+    "Belkin AirPods Reinigungsset",
+    "Belkin BoostCharge Pro Powerbank 10K mit Apple Watch Ladegerät",
+    "Belkin Connect USB-C Daten- und Ladeadapter",
+    "Belkin iPhone Mount mit MagSafe für Apple TV 4K",
+    "Belkin iPhone Mount mit MagSafe für Mac Desktop-Computer und Displays",
+    "Belkin iPhone Mount mit MagSafe für Mac Notebooks",
+    "Belkin UltraCharge Pro 20K Powerbank mit integriertem Kabel",
+    "Belkin UltraCharge Pro 3-in-1 Magnetisches Ladedock",
+    "Blackmagic Camera ProDock",
+    "Claris FileMaker Pro 2025 (Vollversion)",
+    "Corsair K65 Plus Wireless Mechanische Gaming-Tastatur für Mac",
+    "Corsair M75 Wireless Lightweight RGB Gaming-Maus",
+    "Crossbody Band – Hellrosa",
+    "DualSense™ Wireless Controller",
+    "EarPods (Lightning Anschluss)",
+    "EarPods (USB-C)",
+    "Elevation Lab GoStand Einstellbarer Ständer für das iPhone",
+    "Eve Aqua – Smarte Bewässerungssteuerung",
+    "Eve Cam – Smart Indoor Kamera",
+    "Eve Door & Window (Matter) – Kabelloser Kontaktsensor – 3er-Pack",
+    "Eve Energy (Matter) – Smart Steckdose mit Verbrauchsmessung",
+    "Eve Energy Strip – Verbundener Dreifachstecker",
+    "Eve Flare Portable Smarte LED Leuchte",
+    "Eve Motion (Matter) – Kabelloser Bewegungsmelder",
+    "Eve Water Guard – Smart Wassermelder",
+    "Eve Weather (Matter) – Smart Wetterstation",
+    "Herschel AirPods Tote Bag Charm",
+    "Herschel Cloud Sling für iPhone",
+    "Herschel Cloudform AirPods Charm",
+    "Herschel Cloudform Burrard Organizer Tech",
+    "HidrateSpark PRO 2 Smart Trinkbecher (887 ml)",
+    "HidrateSpark PRO 2 Smart Trinkflasche (621 ml)",
+    "Hikawa Grip & Stand für iPhone (MagSafe kompatibel)",
+    "HomePod",
+    "HomePod mini",
+    "HP Envy Photo 7230 All-in-One Drucker",
+    "IK Multimedia iRig HD X",
+    "Incase Tragebandschlaufe",
+    "Insta360 X5 Standard Bundle",
+    "iPhone 16e Silikon Case – Neongelb",
+    "iPhone 17 Pro Clear Case mit MagSafe",
+    "iPhone 17 Pro Funktionsgewebe Case mit MagSafe - Siena",
+    "iPhone 17 Pro Max Funktionsgewebe Case mit MagSafe - Grün",
+    "iPhone 17 Pro Max Silikon Case mit MagSafe - Vanille",
+    "iPhone 17 Pro Silikon Case mit MagSafe - Guavepink",
+    "iPhone 17 Silikon Case mit MagSafe - Leuchtendes Lavendel",
+    "iPhone 17e Clear Case mit MagSafe",
+    "iPhone 17e Silikon Case mit MagSafe – Hellrosa",
+    "iPhone Air Bumper - Hellblau",
+    "iPhone Air Case mit MagSafe - Schatten",
+    "iPhone Air MagSafe Batterie",
+    "iPhone Feingewebe Wallet mit MagSafe – Fuchsrot",
+    "JOBY GripTight PRO TelePod Stativ",
+    "JOBY TelePod Mobile All-in-One Stativ für iPhone",
+    "Kensington Sicherheitshalterung für Mac mini",
+    "LaCie 1 TB Rugged USB-C mobile Festplatte",
+    "LaCie 10 TB 1big Docking-Station für externe Festplatten",
+    "LaCie 2 TB Rugged USB-C mobile Festplatte",
+    "LaCie 8 TB d2 Professional Desktop-Festplatte",
+    "LaCie Mobile Drive Secure USB-C 2 TB mit Datenrettung",
+    "LaCie Mobile Drive Secure USB-C 4 TB mit Datenrettung",
+    "LaCie Mobile Drive Secure USB-C 5 TB mit Datenrettung",
+    "Logitech Circle View Apple HomeKit kompatible Sicherheitskamera",
+    "Logitech Combo Touch Keyboard Case für 11\" iPad Air (M4)",
+    "Logitech Combo Touch Keyboard Case für 11\" iPad Pro (M5)",
+    "Logitech Combo Touch Keyboard Case für iPad (A16)",
+    "Logitech Crayon für iPad",
+    "Logitech Flip Folio Keyboard Case für 11\" iPad Air und iPad Pro - Deutsch",
+    "Logitech Flip Folio Keyboard Case für 13\" iPad Air und iPad Pro - Deutsch",
+    "Logitech Keys-To-Go 2 für iPad",
+    "Logitech Muse",
+    "Logitech Rugged Folio Keyboard für iPad (A16)",
+    "Logitech Slim Folio Keyboard für iPad (A16)",
+    "Magic Keyboard (USB–C) – Deutsch",
+    "Magic Keyboard Folio für iPad (A16) – Deutsch",
+    "Magic Keyboard für 11\" iPad Pro (M5) - Deutsch - Weiß",
+    "Magic Keyboard für 13\" iPad Pro (M5) - Deutsch - Schwarz",
+    "Magic Keyboard für das 11\" iPad Air (M4) – Deutsch – Weiß",
+    "Magic Keyboard für das 13\" iPad Air (M4) – Deutsch – Schwarz",
+    "Magic Keyboard mit Touch ID für Mac Modelle mit Apple Chip (USB-C) – Deutsch",
+    "Magic Keyboard mit Touch ID und Ziffernblock für Mac Modelle mit Apple Chip (USB‑C) – Deutsch – Weiße Tasten",
+    "Magic Mouse (USB‑C) – Weiße Multi-Touch Oberfläche",
+    "Magic Trackpad (USB‑C) – Weiße Multi-Touch Oberfläche",
+    "Microsoft 365 Business Standard (One-Year Subscription) - German",
+    "Microsoft 365 Family (1-Jahres-Abonnement für bis zu 6 Personen)",
+    "Microsoft 365 Personal (1‑Jahres-Abonnement)",
+    "Microsoft Office Home & Business 2024",
+    "Mobiles Stativ ShiftCam SnapStand Max Full Height",
+    "MOFT Snap Field MagSafe Wallet Ständer",
+    "mophie 3-in-1 Wireless Charge Stand",
+    "mophie 4-in-1 Wireless Charge Stand",
+    "mophie Check Case für iPhone 17 Pro",
+    "mophie Magnetic Car Vent Mount",
+    "mophie Magnetic Wireless Charging Car Vent Mount (MagSafe kompatibel)",
+    "mophie Optical Check Case für iPhone 17 Pro Max",
+    "mophie Roam 3-in-1 Reiseladegerät",
+    "Nanoleaf Essentials Matter E27 Smart Bulb – Thread und Matter kompatible smarte LED Glühbirne – Weiß und Farbe (3er-Pack)",
+    "Nanoleaf Essentials Matter Smart Multicolor HD Lightstrip (5 m)",
+    "Nanoleaf Essentials Matter Smart Multicolor Outdoor Lichterkette Smarter Kit",
+    "Native Union Active Wallet Magnetic Stand (MagSafe kompatibel)",
+    "Netatmo Smarter Kohlenmonoxidmelder",
+    "Nimble Champ Stretch Ladegerät Liquid Crystal Edition",
+    "Nimble PowerKnit FLEX 1 m / 2 m / 3 m USB-C auf USB-C Kabel",
+    "Nimble SharePower Tragbares Batterieladegerät",
+    "Nimble Wally Stretch 65W Wandladegerät - Weiß",
+    "Nuki Pro Smart Lock Access Kit",
+    "Nuki Smart Lock GO Access Kit",
+    "Philips Hue Bridge Pro Smart Hub",
+    "Philips Hue Go Tragbare Tischleuchte",
+    "Philips Hue Gradient Signe Stehleuchte",
+    "Philips Hue Gradient Signe Tischleuchte",
+    "Philips Hue Play Wallwasher Lampe (2er-Pack)",
+    "Philips Hue Play White & Color Ambience Lightbar (2er-Pack)",
+    "Philips Hue Starter Kit: Bridge Pro + Dimmschalter + E27 Smart Leuchten (3er-Pack)",
+    "Polaroid Hi-Print 2x3 Pocket Fotodrucker und Papier Bundle – Everything Box",
+    "PopSockets Kick-Out Grip & Stand (MagSafe kompatibel)",
+    "PopSockets Low-Pro Grip & Stand (MagSafe kompatibel)",
+    "Powerbeats Fit - Kabellose Fitness In-Ear Kopfhörer mit sicherem Sitz - Diamantschwarz",
+    "Powerbeats Pro 2 – Leistungsstarke In-Ear Kopfhörer – Leuchtorange",
+    "Powerbeats Pro 2 – Nike Special Edition",
+    "Promise Pegasus J2i 8 TB Internes Speichergehäuse für Mac Pro",
+    "PROMISE Pegasus32 R4 16 TB RAID System",
+    "PROMISE Pegasus32 R6 48 TB RAID System",
+    "PROMISE Pegasus32 R8 32 TB RAID System",
+    "PROMISE Pegasus32 R8 64 TB RAID System",
+    "RØDE VideoMic ME C+",
+    "SanDisk 256 GB iXpand Flash-Laufwerk Go",
+    "SanDisk Extreme® Portable SSD – 2 TB",
+    "SanDisk Phone Drive – 128 GB",
+    "SanDisk® Professional PRO-G40™ SSD – 4 TB",
+    "Satechi klappbarer Aluminiumständer",
+    "Scosche MagicMount™ Charge Elite 3-in-1",
+    "Scosche StrikeLine USB-C auf USB-C Kabel (2 m)",
+    "ShiftCam ProGrip Starter Kit",
+    "ShiftCam SnapCreator Kit Pro Ultimate 3-in-1 Portable Studio",
+    "ShiftCam SnapGrip Pro mit Powerbank der nächsten Generation",
+    "ShiftCam SnapLight Magnetisches LED-Ringlicht für Selfies",
+    "ShiftCam SnapStand Selfie Magnetischer Selfiestick und Stativ",
+    "Smartes Heizkörperthermostat Eve Thermo (Matter)",
+    "SteelSeries Nimbus Dual-Mode Cloud Controller",
+    "Studio Display XDR – Nanotexturglas – neigungs- und höhenverstellbarer Standfuß",
+    "Studio Display XDR – Nanotexturglas – VESA Mount Adapter",
+    "Studio Display XDR – Standardglas – neigungs- und höhenverstellbarer Standfuß",
+    "Studio Display XDR – Standardglas – VESA Mount Adapter",
+    "Studio Display – Nanotexturglas – neigungs- und höhenverstellbarer Standfuß",
+    "Studio Display – Nanotexturglas – neigungsverstellbarer Standfuß",
+    "Studio Display – Nanotexturglas – VESA Mount Adapter",
+    "Studio Display – Standardglas – neigungs- und höhenverstellbarer Standfuß",
+    "Studio Display – Standardglas – neigungsverstellbarer Standfuß",
+    "Studio Display – Standardglas – VESA Mount Adapter",
+    "Tech21 EvoClear Case für AirPods 4 – Transparent",
+    "Tech21 EvoClear für AirPods Max",
+    "Tech21 FlexQuartz Case für iPhone 17 (MagSafe kompatibel)",
+    "Tech21 FlexQuartz Case für iPhone 17 Pro (MagSafe kompatibel)",
+    "Tech21 FlexQuartz Case für iPhone 17 Pro Max (MagSafe kompatibel)",
+    "Tech21 FlexQuartz Case für iPhone Air (MagSafe kompatibel)",
+    "Tech21 Tragebandschlaufen 2er-Pack",
+    "Tech21 Translucent EvoPop AirPods 4 Case",
+    "TotalMount Pro Apple TV Montagesystem für an der Wand montierte Fernseher",
+    "Twelve South AirFly Pro 2 Bluetooth Sender",
+    "Twelve South AirFly Pro 2 Deluxe Bluetooth Sender",
+    "Twelve South ButterFly SE 2-in-1 USB-C Qi 2.2 Reiseladegerät",
+    "USB‑C auf SD Kartenlesegerät",
+    "Western Digital G‑DRIVE® ArmorATD™ mobile Festplatte – 1 TB",
+    "Withings BeamO Gesundheitsscanner",
+    "Withings Body Comp – Smart WLAN-Körperwaage mit Ganzkörperanalyse",
+    "Withings Body Scan – Vernetzte Gesundheitsstation und Smart-Körperwaage",
+    "Withings Body Smart – WLAN-Körperwaage mit erweiterter Körperzusammensetzung",
+    "Withings BPM Connect WLAN Intelligentes Blutdruckmessgerät",
+    "Withings BPM Core – Intelligentes Blutdruckmessgerät mit EKG-Funktion und digitalem Stethoskop",
+    "Withings BPM Vision Blutdruckmessgerät",
+    "Zens Magnetisches Nachtisch-Ladegerät"
+  ],
+  "accessoryAuditKnownComplete": false,
+  "buildVersion": "7.0-2026-09-18"
 }

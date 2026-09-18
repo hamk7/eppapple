@@ -1,4 +1,4690 @@
 {
-  "series": {},
-  "updatedAt": "2026-09-14T18:20:02+02:00"
+  "series": {
+    "iphone-pro": [
+      {
+        "id": "iphone-17-pro",
+        "name": "iPhone 17 Pro",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1299,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 1079.33,
+              "27": 949.62
+            },
+            "id": "1",
+            "fee": 5,
+            "eppBaseGross": 1299
+          },
+          {
+            "label": "512 GB",
+            "gross": 1549,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5
+          },
+          {
+            "label": "1 TB",
+            "gross": 1799,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-18-pro",
+        "name": "iPhone 18 Pro",
+        "generation": 18,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 1449,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 1699,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 2199,
+            "fee": 5,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 2949,
+            "fee": 5,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-17-pro",
+        "name": "iPhone 17 Pro",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1299,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 1079.33,
+              "27": 949.62
+            },
+            "id": "1",
+            "fee": 5.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 1549,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5.0
+          },
+          {
+            "label": "1 TB",
+            "gross": 1799,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5.0
+          }
+        ]
+      },
+      {
+        "id": "iphone-18-pro",
+        "name": "iPhone 18 Pro",
+        "generation": 18,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 1449,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 1699,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 2199,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 2949,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      }
+    ],
+    "iphone-pro-max": [
+      {
+        "id": "iphone-17-pro-max",
+        "name": "iPhone 17 Pro Max",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1449,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 1204.28,
+              "27": 1059.1
+            },
+            "id": "1",
+            "fee": 5,
+            "eppBaseGross": 1449
+          },
+          {
+            "label": "512 GB",
+            "gross": 1699,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5
+          },
+          {
+            "label": "1 TB",
+            "gross": 1949,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5
+          },
+          {
+            "label": "2 TB",
+            "gross": 2449,
+            "options": {
+              "Speicher": "2 TB"
+            },
+            "id": "4",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-18-pro-max",
+        "name": "iPhone 18 Pro Max",
+        "generation": 18,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 1599,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 1849,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 2349,
+            "fee": 5,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 3099,
+            "fee": 5,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-17-pro-max",
+        "name": "iPhone 17 Pro Max",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1449,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 1204.28,
+              "27": 1059.1
+            },
+            "id": "1",
+            "fee": 5.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 1699,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5.0
+          },
+          {
+            "label": "1 TB",
+            "gross": 1949,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5.0
+          },
+          {
+            "label": "2 TB",
+            "gross": 2449,
+            "options": {
+              "Speicher": "2 TB"
+            },
+            "id": "4",
+            "fee": 5.0
+          }
+        ]
+      },
+      {
+        "id": "iphone-18-pro-max",
+        "name": "iPhone 18 Pro Max",
+        "generation": 18,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 1599,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 1849,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 2349,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 3099,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      }
+    ],
+    "iphone-air": [
+      {
+        "id": "iphone-air",
+        "name": "iPhone Air",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1199,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 996.03,
+              "27": 877.03
+            },
+            "id": "1",
+            "fee": 5,
+            "eppBaseGross": 1199
+          },
+          {
+            "label": "512 GB",
+            "gross": 1449,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "epp": {
+              "17": 1204.28
+            },
+            "id": "2",
+            "fee": 5,
+            "eppBaseGross": 1449
+          },
+          {
+            "label": "1 TB",
+            "gross": 1699,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-air",
+        "name": "iPhone Air",
+        "generation": 17,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1299,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 996.03,
+              "27": 877.03
+            },
+            "id": "1",
+            "fee": 5
+          },
+          {
+            "label": "512 GB",
+            "gross": 1549,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "epp": {
+              "17": 1204.28
+            },
+            "id": "2",
+            "fee": 5
+          },
+          {
+            "label": "1 TB",
+            "gross": 1799,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-air",
+        "name": "iPhone Air",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1299,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "id": "1",
+            "fee": 5.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 1549,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5.0
+          },
+          {
+            "label": "1 TB",
+            "gross": 2049,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 5.0
+          }
+        ]
+      }
+    ],
+    "iphone-standard": [
+      {
+        "id": "iphone-16",
+        "name": "iPhone 16",
+        "generation": 16,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "id": "1",
+            "label": "128 GB",
+            "gross": 849,
+            "fee": 5,
+            "options": {
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 705.67,
+              "27": 621.18
+            },
+            "eppBaseGross": 849
+          },
+          {
+            "id": "2",
+            "label": "256 GB",
+            "gross": 979,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "512 GB",
+            "gross": 1229,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-17",
+        "name": "iPhone 17",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 949,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 788.97,
+              "27": 694.96
+            },
+            "id": "1",
+            "fee": 5,
+            "eppBaseGross": 949
+          },
+          {
+            "label": "512 GB",
+            "gross": 1199,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-16",
+        "name": "iPhone 16",
+        "generation": 16,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "128 GB",
+            "gross": 999,
+            "fee": 5,
+            "options": {
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 705.67,
+              "27": 621.18
+            }
+          },
+          {
+            "id": "2",
+            "label": "256 GB",
+            "gross": 1129,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "512 GB",
+            "gross": 1379,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-17",
+        "name": "iPhone 17",
+        "generation": 17,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1099,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 788.97,
+              "27": 694.96
+            },
+            "id": "1",
+            "fee": 5
+          },
+          {
+            "label": "512 GB",
+            "gross": 1349,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-16",
+        "name": "iPhone 16",
+        "generation": 16,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "128 GB",
+            "gross": 999,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "128 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "256 GB",
+            "gross": 1129,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "512 GB",
+            "gross": 1379,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-17",
+        "name": "iPhone 17",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 1099,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "id": "1",
+            "fee": 5.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 1349,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5.0
+          }
+        ]
+      }
+    ],
+    "iphone-e": [
+      {
+        "id": "iphone-17e",
+        "name": "iPhone 17e",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 699,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 580.72,
+              "27": 511.7
+            },
+            "id": "1",
+            "fee": 5,
+            "eppBaseGross": 699
+          },
+          {
+            "label": "512 GB",
+            "gross": 949,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5
+          }
+        ]
+      },
+      {
+        "id": "iphone-17e",
+        "name": "iPhone 17e",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 849,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "id": "1",
+            "fee": 5.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 1099,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 5.0
+          }
+        ]
+      }
+    ],
+    "iphone-standard-plus": [
+      {
+        "id": "iphone-16-plus",
+        "name": "iPhone 16 Plus",
+        "generation": 16,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "id": "1",
+            "label": "128 GB",
+            "gross": 949,
+            "fee": 5,
+            "options": {
+              "Speicher": "128 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "256 GB",
+            "gross": 1079,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "512 GB",
+            "gross": 1329,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-16-plus",
+        "name": "iPhone 16 Plus",
+        "generation": 16,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "128 GB",
+            "gross": 949,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "128 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "256 GB",
+            "gross": 1079,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "512 GB",
+            "gross": 1329,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          }
+        ]
+      }
+    ],
+    "ipad-pro": [
+      {
+        "id": "ipad-pro",
+        "name": "iPad Pro",
+        "generation": 5,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "11\" · 256 GB · Wi-Fi · Standardglas",
+            "gross": 1299,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            },
+            "epp": {
+              "17": 1079.33,
+              "27": 950.81
+            },
+            "eppBaseGross": 1299
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi · Standardglas",
+            "gross": 1549,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi · Standardglas",
+            "gross": 2029,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi · Standardglas",
+            "gross": 2649,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2159,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2779,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1549,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1799,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2279,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2899,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 2409,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 3029,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi · Standardglas",
+            "gross": 1649,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi · Standardglas",
+            "gross": 1899,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi · Standardglas",
+            "gross": 2379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi · Standardglas",
+            "gross": 2999,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2509,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi · Nanotexturglas",
+            "gross": 3129,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1899,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2149,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2629,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 3249,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            }
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 2759,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            }
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 3379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ipad-pro",
+        "name": "iPad Pro",
+        "generation": 5,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "11\" · 256 GB · Wi-Fi · Standardglas",
+            "gross": 1299,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            },
+            "epp": {
+              "17": 1079.33,
+              "27": 950.81
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi · Standardglas",
+            "gross": 1549,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi · Standardglas",
+            "gross": 2029,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi · Standardglas",
+            "gross": 2649,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2159,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2779,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1549,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1799,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2279,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2899,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 2409,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 3029,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi · Standardglas",
+            "gross": 1649,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi · Standardglas",
+            "gross": 1899,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi · Standardglas",
+            "gross": 2379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi · Standardglas",
+            "gross": 2999,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi · Nanotexturglas",
+            "gross": 2509,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi · Nanotexturglas",
+            "gross": 3129,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 1899,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2149,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 2629,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+            "gross": 3249,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Standardglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 2759,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+            "gross": 3379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "2 TB",
+              "Glas": "Nanotexturglas"
+            },
+            "fee": 7.0
+          }
+        ]
+      }
+    ],
+    "ipad-air": [
+      {
+        "id": "ipad-air",
+        "name": "iPad Air",
+        "generation": 4,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "11\" · 128 GB · Wi-Fi",
+            "gross": 799,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 664.02,
+              "27": 585.48
+            },
+            "id": "1",
+            "fee": 7,
+            "eppBaseGross": 799
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi",
+            "gross": 929,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi",
+            "gross": 1179,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi",
+            "gross": 1559,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB"
+            },
+            "id": "4",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 128 GB · Wi-Fi + Cellular",
+            "gross": 969,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "5",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi + Cellular",
+            "gross": 1099,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "6",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi + Cellular",
+            "gross": 1349,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "7",
+            "fee": 7
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular",
+            "gross": 1729,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB"
+            },
+            "id": "8",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 128 GB · Wi-Fi",
+            "gross": 999,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "id": "9",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi",
+            "gross": 1129,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "10",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi",
+            "gross": 1379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "11",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi",
+            "gross": 1759,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB"
+            },
+            "id": "12",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 128 GB · Wi-Fi + Cellular",
+            "gross": 1169,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "13",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi + Cellular",
+            "gross": 1299,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "14",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi + Cellular",
+            "gross": 1549,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "15",
+            "fee": 7
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular",
+            "gross": 1929,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB"
+            },
+            "id": "16",
+            "fee": 7
+          }
+        ]
+      },
+      {
+        "id": "ipad-air",
+        "name": "iPad Air",
+        "generation": 4,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "11\" · 128 GB · Wi-Fi",
+            "gross": 799,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 664.02,
+              "27": 585.48
+            },
+            "id": "1",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi",
+            "gross": 929,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi",
+            "gross": 1179,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi",
+            "gross": 1559,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB"
+            },
+            "id": "4",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 128 GB · Wi-Fi + Cellular",
+            "gross": 969,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "5",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 256 GB · Wi-Fi + Cellular",
+            "gross": 1099,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "6",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 512 GB · Wi-Fi + Cellular",
+            "gross": 1349,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "7",
+            "fee": 7.0
+          },
+          {
+            "label": "11\" · 1 TB · Wi-Fi + Cellular",
+            "gross": 1729,
+            "options": {
+              "Größe": "11\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB"
+            },
+            "id": "8",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 128 GB · Wi-Fi",
+            "gross": 999,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "id": "9",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi",
+            "gross": 1129,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "10",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi",
+            "gross": 1379,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "11",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi",
+            "gross": 1759,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi",
+              "Speicher": "1 TB"
+            },
+            "id": "12",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 128 GB · Wi-Fi + Cellular",
+            "gross": 1169,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "13",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 256 GB · Wi-Fi + Cellular",
+            "gross": 1299,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "14",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 512 GB · Wi-Fi + Cellular",
+            "gross": 1549,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "15",
+            "fee": 7.0
+          },
+          {
+            "label": "13\" · 1 TB · Wi-Fi + Cellular",
+            "gross": 1929,
+            "options": {
+              "Größe": "13\"",
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "1 TB"
+            },
+            "id": "16",
+            "fee": 7.0
+          }
+        ]
+      }
+    ],
+    "ipad-standard": [
+      {
+        "id": "ipad",
+        "name": "iPad",
+        "generation": 16,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "128 GB · Wi-Fi",
+            "gross": 499,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 415.31,
+              "27": 366.52
+            },
+            "id": "1",
+            "fee": 7,
+            "eppBaseGross": 499
+          },
+          {
+            "label": "256 GB · Wi-Fi",
+            "gross": 629,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7
+          },
+          {
+            "label": "512 GB · Wi-Fi",
+            "gross": 879,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7
+          },
+          {
+            "label": "128 GB · Wi-Fi + Cellular",
+            "gross": 669,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "4",
+            "fee": 7
+          },
+          {
+            "label": "256 GB · Wi-Fi + Cellular",
+            "gross": 799,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "5",
+            "fee": 7
+          },
+          {
+            "label": "512 GB · Wi-Fi + Cellular",
+            "gross": 1049,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "6",
+            "fee": 7
+          }
+        ]
+      },
+      {
+        "id": "ipad",
+        "name": "iPad",
+        "generation": 16,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "128 GB · Wi-Fi",
+            "gross": 499,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 415.31,
+              "27": 366.52
+            },
+            "id": "1",
+            "fee": 7.0
+          },
+          {
+            "label": "256 GB · Wi-Fi",
+            "gross": 629,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7.0
+          },
+          {
+            "label": "512 GB · Wi-Fi",
+            "gross": 879,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7.0
+          },
+          {
+            "label": "128 GB · Wi-Fi + Cellular",
+            "gross": 669,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "4",
+            "fee": 7.0
+          },
+          {
+            "label": "256 GB · Wi-Fi + Cellular",
+            "gross": 799,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "5",
+            "fee": 7.0
+          },
+          {
+            "label": "512 GB · Wi-Fi + Cellular",
+            "gross": 1049,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "6",
+            "fee": 7.0
+          }
+        ]
+      }
+    ],
+    "ipad-mini": [
+      {
+        "id": "ipad-mini",
+        "name": "iPad mini",
+        "generation": 17,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "128 GB · Wi-Fi",
+            "gross": 679,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 565.25,
+              "27": 497.42
+            },
+            "id": "1",
+            "fee": 7,
+            "eppBaseGross": 679
+          },
+          {
+            "label": "256 GB · Wi-Fi",
+            "gross": 809,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7
+          },
+          {
+            "label": "512 GB · Wi-Fi",
+            "gross": 1059,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7
+          },
+          {
+            "label": "128 GB · Wi-Fi + Cellular",
+            "gross": 849,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "4",
+            "fee": 7
+          },
+          {
+            "label": "256 GB · Wi-Fi + Cellular",
+            "gross": 979,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "5",
+            "fee": 7
+          },
+          {
+            "label": "512 GB · Wi-Fi + Cellular",
+            "gross": 1229,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "6",
+            "fee": 7
+          }
+        ]
+      },
+      {
+        "id": "ipad-mini",
+        "name": "iPad mini",
+        "generation": 17,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "128 GB · Wi-Fi",
+            "gross": 679,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "128 GB"
+            },
+            "epp": {
+              "17": 565.25,
+              "27": 497.42
+            },
+            "id": "1",
+            "fee": 7.0
+          },
+          {
+            "label": "256 GB · Wi-Fi",
+            "gross": 809,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "256 GB"
+            },
+            "id": "2",
+            "fee": 7.0
+          },
+          {
+            "label": "512 GB · Wi-Fi",
+            "gross": 1059,
+            "options": {
+              "Verbindung": "Wi-Fi",
+              "Speicher": "512 GB"
+            },
+            "id": "3",
+            "fee": 7.0
+          },
+          {
+            "label": "128 GB · Wi-Fi + Cellular",
+            "gross": 849,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "128 GB"
+            },
+            "id": "4",
+            "fee": 7.0
+          },
+          {
+            "label": "256 GB · Wi-Fi + Cellular",
+            "gross": 979,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "256 GB"
+            },
+            "id": "5",
+            "fee": 7.0
+          },
+          {
+            "label": "512 GB · Wi-Fi + Cellular",
+            "gross": 1229,
+            "options": {
+              "Verbindung": "Wi-Fi + Cellular",
+              "Speicher": "512 GB"
+            },
+            "id": "6",
+            "fee": 7.0
+          }
+        ]
+      }
+    ],
+    "macbook-neo": [
+      {
+        "id": "macbook-neo",
+        "name": "MacBook Neo",
+        "generation": 1,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Basismodell · 256 GB",
+            "gross": 799,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 665.86,
+              "27": 586.13
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 799
+          }
+        ]
+      },
+      {
+        "id": "macbook-neo",
+        "name": "MacBook Neo",
+        "generation": 1,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Basismodell · 256 GB",
+            "gross": 799,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "id": "1",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "macbook-air": [
+      {
+        "id": "macbook-air",
+        "name": "MacBook Air",
+        "generation": 5,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 1399,
+            "options": {
+              "Größe": "13 Zoll",
+              "Chip": "M5",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "512 GB"
+            },
+            "epp": {
+              "17": 1163.28,
+              "27": 1025.24
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 1399
+          }
+        ]
+      },
+      {
+        "id": "macbook-air",
+        "name": "MacBook Air",
+        "generation": 5,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 1399,
+            "options": {
+              "Größe": "13 Zoll",
+              "Chip": "M5",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "512 GB"
+            },
+            "id": "1",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "macbook-pro": [
+      {
+        "id": "macbook-pro",
+        "name": "MacBook Pro",
+        "generation": 5,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 2199,
+            "options": {
+              "Größe": "14 Zoll",
+              "Chip": "M5",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "1 TB"
+            },
+            "epp": {
+              "17": 1827.3,
+              "27": 1608.34
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 2199
+          }
+        ]
+      },
+      {
+        "id": "macbook-pro",
+        "name": "MacBook Pro",
+        "generation": 5,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 2199,
+            "options": {
+              "Größe": "14 Zoll",
+              "Chip": "M5",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "1 TB"
+            },
+            "id": "1",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "imac": [
+      {
+        "id": "imac",
+        "name": "iMac",
+        "generation": 4,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 1799,
+            "options": {
+              "Chip": "M4 · 8-Core CPU / 8-Core GPU",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "256 GB",
+              "Display": "Standardglas",
+              "Basis": "Standfuß"
+            },
+            "epp": {
+              "17": 1495.29,
+              "27": 1316.79
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 1799
+          }
+        ]
+      },
+      {
+        "id": "imac",
+        "name": "iMac",
+        "generation": 4,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Basismodell",
+            "gross": 1799,
+            "options": {
+              "Chip": "M4 · 8-Core CPU / 8-Core GPU",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "256 GB",
+              "Display": "Standardglas",
+              "Basis": "Standfuß"
+            },
+            "id": "1",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "mac-mini": [
+      {
+        "id": "mac-mini",
+        "name": "Mac mini",
+        "generation": 6,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "M6 Basismodell",
+            "gross": 1049,
+            "options": {
+              "Chip": "M6",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "256 GB",
+              "Ethernet": "2,5 Gigabit"
+            },
+            "epp": {
+              "17": 872.92,
+              "27": 769.39
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 1049
+          },
+          {
+            "label": "M5 Pro Basismodell",
+            "gross": 1999,
+            "options": {
+              "Chip": "M5 Pro",
+              "Arbeitsspeicher": "24 GB",
+              "Speicher": "512 GB",
+              "Ethernet": "2,5 Gigabit"
+            },
+            "id": "2",
+            "fee": 10.55
+          }
+        ]
+      },
+      {
+        "id": "mac-mini",
+        "name": "Mac mini",
+        "generation": 6,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "M6 Basismodell",
+            "gross": 1049,
+            "options": {
+              "Chip": "M6",
+              "Arbeitsspeicher": "16 GB",
+              "Speicher": "256 GB",
+              "Ethernet": "2,5 Gigabit"
+            },
+            "id": "1",
+            "fee": 10.55
+          },
+          {
+            "label": "M5 Pro Basismodell",
+            "gross": 1999,
+            "options": {
+              "Chip": "M5 Pro",
+              "Arbeitsspeicher": "24 GB",
+              "Speicher": "512 GB",
+              "Ethernet": "2,5 Gigabit"
+            },
+            "id": "2",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "mac-studio": [
+      {
+        "id": "mac-studio",
+        "name": "Mac Studio",
+        "generation": 5,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "M5 Max Basismodell",
+            "gross": 2999,
+            "options": {
+              "Chip": "M5 Max",
+              "Arbeitsspeicher": "36 GB",
+              "Speicher": "512 GB"
+            },
+            "epp": {
+              "17": 2491.32,
+              "27": 2192.63
+            },
+            "id": "1",
+            "fee": 10.55,
+            "eppBaseGross": 2999
+          },
+          {
+            "label": "M5 Ultra Basismodell",
+            "gross": 6599,
+            "options": {
+              "Chip": "M5 Ultra",
+              "Arbeitsspeicher": "96 GB",
+              "Speicher": "1 TB"
+            },
+            "id": "2",
+            "fee": 10.55
+          }
+        ]
+      },
+      {
+        "id": "mac-studio",
+        "name": "Mac Studio",
+        "generation": 5,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "M5 Max Basismodell",
+            "gross": 2999,
+            "options": {
+              "Chip": "M5 Max",
+              "Arbeitsspeicher": "36 GB",
+              "Speicher": "512 GB"
+            },
+            "id": "1",
+            "fee": 10.55
+          },
+          {
+            "label": "M5 Ultra Basismodell",
+            "gross": 6599,
+            "options": {
+              "Chip": "M5 Ultra",
+              "Arbeitsspeicher": "96 GB",
+              "Speicher": "1 TB"
+            },
+            "id": "2",
+            "fee": 10.55
+          }
+        ]
+      }
+    ],
+    "studio-display": [
+      {
+        "id": "studio-display",
+        "name": "Studio Display",
+        "generation": 2,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standardglas · Neigungsverstellbarer Standfuß",
+            "gross": 1699,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Neigungsverstellbarer Standfuß"
+            },
+            "epp": {
+              "17": 1410.15,
+              "27": 1239.98
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 1699
+          },
+          {
+            "label": "Standardglas · VESA Mount Adapter",
+            "gross": 1699,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "2",
+            "fee": 0
+          },
+          {
+            "label": "Standardglas · Neigungs- und höhenverstellbarer Standfuß",
+            "gross": 2099,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+            },
+            "id": "3",
+            "fee": 0
+          },
+          {
+            "label": "Nanotexturglas · Neigungsverstellbarer Standfuß",
+            "gross": 1999,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Neigungsverstellbarer Standfuß"
+            },
+            "id": "4",
+            "fee": 0
+          },
+          {
+            "label": "Nanotexturglas · VESA Mount Adapter",
+            "gross": 1999,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "5",
+            "fee": 0
+          },
+          {
+            "label": "Nanotexturglas · Neigungs- und höhenverstellbarer Standfuß",
+            "gross": 2399,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+            },
+            "id": "6",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "studio-display",
+        "name": "Studio Display",
+        "generation": 2,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standardglas · Neigungsverstellbarer Standfuß",
+            "gross": 1699,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Neigungsverstellbarer Standfuß"
+            },
+            "id": "1",
+            "fee": 0.0
+          },
+          {
+            "label": "Standardglas · VESA Mount Adapter",
+            "gross": 1699,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "2",
+            "fee": 0.0
+          },
+          {
+            "label": "Standardglas · Neigungs- und höhenverstellbarer Standfuß",
+            "gross": 2099,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+            },
+            "id": "3",
+            "fee": 0.0
+          },
+          {
+            "label": "Nanotexturglas · Neigungsverstellbarer Standfuß",
+            "gross": 1999,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Neigungsverstellbarer Standfuß"
+            },
+            "id": "4",
+            "fee": 0.0
+          },
+          {
+            "label": "Nanotexturglas · VESA Mount Adapter",
+            "gross": 1999,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "5",
+            "fee": 0.0
+          },
+          {
+            "label": "Nanotexturglas · Neigungs- und höhenverstellbarer Standfuß",
+            "gross": 2399,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+            },
+            "id": "6",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "studio-display-xdr": [
+      {
+        "id": "studio-display-xdr",
+        "name": "Studio Display XDR",
+        "generation": 2,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standardglas · VESA Mount Adapter",
+            "gross": 3099,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "epp": {
+              "17": 2571.59,
+              "27": 2262.19
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 3099
+          },
+          {
+            "label": "Nanotexturglas · VESA Mount Adapter",
+            "gross": 3599,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "2",
+            "fee": 0
+          },
+          {
+            "label": "Standardglas · Pro Stand",
+            "gross": 4298,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Pro Stand"
+            },
+            "id": "3",
+            "fee": 0
+          },
+          {
+            "label": "Nanotexturglas · Pro Stand",
+            "gross": 4798,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Pro Stand"
+            },
+            "id": "4",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "studio-display-xdr",
+        "name": "Studio Display XDR",
+        "generation": 2,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standardglas · VESA Mount Adapter",
+            "gross": 3099,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "1",
+            "fee": 0.0
+          },
+          {
+            "label": "Nanotexturglas · VESA Mount Adapter",
+            "gross": 3399,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "VESA Mount Adapter"
+            },
+            "id": "2",
+            "fee": 0.0
+          },
+          {
+            "label": "Standardglas · Pro Stand",
+            "gross": 3499,
+            "options": {
+              "Glas": "Standardglas",
+              "Standfuß": "Pro Stand"
+            },
+            "id": "3",
+            "fee": 0.0
+          },
+          {
+            "label": "Nanotexturglas · Pro Stand",
+            "gross": 3799,
+            "options": {
+              "Glas": "Nanotexturglas",
+              "Standfuß": "Pro Stand"
+            },
+            "id": "4",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "watch-series": [
+      {
+        "id": "watch-series-11",
+        "name": "Apple Watch Series 11",
+        "generation": 11,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "42 mm · Aluminium · GPS · Sportarmband",
+            "gross": 449,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "epp": {
+              "17": 372.71,
+              "27": 328.68
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 449
+          },
+          {
+            "label": "46 mm · Aluminium · GPS · Sportarmband",
+            "gross": 479,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "id": "2",
+            "fee": 1.2
+          },
+          {
+            "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 569,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 599,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-series-12",
+        "name": "Apple Watch Series 12",
+        "generation": 12,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "label": "42 mm · Aluminium · GPS · Sportarmband",
+            "gross": 449,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "epp": {
+              "17": 372.71,
+              "27": 328.68
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 449
+          },
+          {
+            "label": "46 mm · Aluminium · GPS · Sportarmband",
+            "gross": 479,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "id": "2",
+            "fee": 1.2
+          },
+          {
+            "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 569,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 599,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-series-11",
+        "name": "Apple Watch Series 11",
+        "generation": 11,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "42 mm · Aluminium · GPS · Sportarmband",
+            "gross": 449,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "epp": {
+              "17": 372.71,
+              "27": 328.68
+            },
+            "id": "1",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS · Sportarmband",
+            "gross": 479,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "id": "2",
+            "fee": 1.2
+          },
+          {
+            "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 569,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 599,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-series-12",
+        "name": "Apple Watch Series 12",
+        "generation": 12,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "42 mm · Aluminium · GPS · Sportarmband",
+            "gross": 449,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "id": "1",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS · Sportarmband",
+            "gross": 479,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "id": "2",
+            "fee": 1.2
+          },
+          {
+            "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 569,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+            "gross": 599,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Aluminium",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      }
+    ],
+    "watch-se": [
+      {
+        "id": "watch-se-3",
+        "name": "Apple Watch SE 3",
+        "generation": 3,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "40 mm · GPS · Sportarmband",
+            "gross": 269,
+            "options": {
+              "Größe": "40 mm",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "calcGross": 268,
+            "epp": {
+              "17": 222.77,
+              "27": 196.59
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 269
+          },
+          {
+            "label": "44 mm · GPS · Sportarmband",
+            "gross": 299,
+            "options": {
+              "Größe": "44 mm",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "epp": {
+              "17": 247.77
+            },
+            "id": "2",
+            "fee": 1.2,
+            "eppBaseGross": 299
+          },
+          {
+            "label": "40 mm · GPS + Cellular · Sportarmband",
+            "gross": 319,
+            "options": {
+              "Größe": "40 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "44 mm · GPS + Cellular · Sportarmband",
+            "gross": 349,
+            "options": {
+              "Größe": "44 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-se-3",
+        "name": "Apple Watch SE 3",
+        "generation": 3,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "label": "40 mm · GPS · Sportarmband",
+            "gross": 269,
+            "options": {
+              "Größe": "40 mm",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "calcGross": 268,
+            "epp": {
+              "17": 222.77,
+              "27": 196.59
+            },
+            "id": "1",
+            "fee": 1.2
+          },
+          {
+            "label": "44 mm · GPS · Sportarmband",
+            "gross": 299,
+            "options": {
+              "Größe": "44 mm",
+              "Verbindung": "GPS",
+              "Armband": "Sportarmband"
+            },
+            "epp": {
+              "17": 247.77
+            },
+            "id": "2",
+            "fee": 1.2
+          },
+          {
+            "label": "40 mm · GPS + Cellular · Sportarmband",
+            "gross": 319,
+            "options": {
+              "Größe": "40 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "3",
+            "fee": 1.2
+          },
+          {
+            "label": "44 mm · GPS + Cellular · Sportarmband",
+            "gross": 349,
+            "options": {
+              "Größe": "44 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Sportarmband"
+            },
+            "id": "4",
+            "fee": 1.2
+          }
+        ]
+      }
+    ],
+    "watch-ultra": [
+      {
+        "id": "watch-ultra-3",
+        "name": "Apple Watch Ultra 3",
+        "generation": 3,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "49 mm · Titan · Alpine/Trail/Ocean",
+            "gross": 899,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Alpine / Trail / Ocean"
+            },
+            "epp": {
+              "17": 746.37,
+              "27": 657.12
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 899
+          },
+          {
+            "label": "49 mm · Titan · Titan Milanaise",
+            "gross": 999,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Titan Milanaise"
+            },
+            "id": "2",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-ultra-4",
+        "name": "Apple Watch Ultra 4",
+        "generation": 4,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "49 mm · Titan · GPS + Cellular",
+            "gross": 800,
+            "fee": 1.2,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular"
+            }
+          }
+        ]
+      },
+      {
+        "id": "watch-ultra-3",
+        "name": "Apple Watch Ultra 3",
+        "generation": 3,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "49 mm · Titan · Alpine/Trail/Ocean",
+            "gross": 899,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Alpine / Trail / Ocean"
+            },
+            "epp": {
+              "17": 746.37,
+              "27": 657.12
+            },
+            "id": "1",
+            "fee": 1.2
+          },
+          {
+            "label": "49 mm · Titan · Titan Milanaise",
+            "gross": 999,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Titan Milanaise"
+            },
+            "id": "2",
+            "fee": 1.2
+          }
+        ]
+      }
+    ],
+    "watch-hermes": [
+      {
+        "id": "watch-hermes",
+        "name": "Apple Watch Hermès",
+        "generation": 11,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "42 mm · Titan Silber · Hermès Armband",
+            "gross": 1399,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Titan Silber",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            },
+            "calcGross": 1398,
+            "epp": {
+              "17": 1160.49,
+              "27": 1021.26
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 1399
+          },
+          {
+            "label": "46 mm · Titan Silber · Hermès Armband",
+            "gross": 1449,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Titan Silber",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            },
+            "id": "2",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-hermes",
+        "name": "Apple Watch Hermès",
+        "generation": 11,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "label": "42 mm · Titan Silber · Hermès Armband",
+            "gross": 1399,
+            "options": {
+              "Größe": "42 mm",
+              "Material": "Titan Silber",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            },
+            "calcGross": 1398,
+            "epp": {
+              "17": 1160.49,
+              "27": 1021.26
+            },
+            "id": "1",
+            "fee": 1.2
+          },
+          {
+            "label": "46 mm · Titan Silber · Hermès Armband",
+            "gross": 1449,
+            "options": {
+              "Größe": "46 mm",
+              "Material": "Titan Silber",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            },
+            "id": "2",
+            "fee": 1.2
+          }
+        ]
+      },
+      {
+        "id": "watch-hermes-series-12",
+        "name": "Apple Watch Hermès Series 12",
+        "generation": 12,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "42 mm · GPS + Cellular · Hermès",
+            "gross": 1050,
+            "fee": 1.2,
+            "options": {
+              "Größe": "42 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            }
+          }
+        ]
+      }
+    ],
+    "watch-hermes-ultra": [
+      {
+        "id": "watch-hermes-ultra-3",
+        "name": "Apple Watch Hermès Ultra 3",
+        "generation": 3,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "49 mm · Titan · Hermès",
+            "gross": 1579,
+            "options": {
+              "Größe": "49 mm",
+              "Material": "Titan",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            },
+            "calcGross": 1579,
+            "epp": {
+              "17": 1310.43,
+              "27": 1153.35
+            },
+            "id": "1",
+            "fee": 1.2,
+            "eppBaseGross": 1579
+          }
+        ]
+      },
+      {
+        "id": "watch-hermes-ultra-4",
+        "name": "Apple Watch Hermès Ultra 4",
+        "generation": 4,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "49 mm · GPS + Cellular · Hermès",
+            "gross": 1100,
+            "fee": 1.2,
+            "options": {
+              "Größe": "49 mm",
+              "Verbindung": "GPS + Cellular",
+              "Armband": "Hermès"
+            }
+          }
+        ]
+      }
+    ],
+    "vision-pro": [
+      {
+        "id": "vision-pro",
+        "name": "Apple Vision Pro",
+        "generation": 2,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 3999,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "epp": {
+              "17": 3318.91,
+              "27": 2919.07
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 3999
+          },
+          {
+            "label": "512 GB",
+            "gross": 4219,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "epp": {
+              "17": 3502.17
+            },
+            "id": "2",
+            "fee": 0,
+            "eppBaseGross": 4219
+          },
+          {
+            "label": "1 TB",
+            "gross": 4439,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "vision-pro",
+        "name": "Apple Vision Pro",
+        "generation": 2,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "256 GB",
+            "gross": 3699,
+            "options": {
+              "Speicher": "256 GB"
+            },
+            "id": "1",
+            "fee": 0.0
+          },
+          {
+            "label": "512 GB",
+            "gross": 3919,
+            "options": {
+              "Speicher": "512 GB"
+            },
+            "id": "2",
+            "fee": 0.0
+          },
+          {
+            "label": "1 TB",
+            "gross": 4139,
+            "options": {
+              "Speicher": "1 TB"
+            },
+            "id": "3",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "airpods-pro": [
+      {
+        "id": "airpods-pro-3",
+        "name": "AirPods Pro 3",
+        "generation": 3,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 249,
+            "epp": {
+              "17": 207.06,
+              "27": 182.07
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 249
+          }
+        ]
+      },
+      {
+        "id": "airpods-pro-3",
+        "name": "AirPods Pro 3",
+        "generation": 3,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 249,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "airpods": [
+      {
+        "id": "airpods-4",
+        "name": "AirPods 4",
+        "generation": 4,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "AirPods 4",
+            "gross": 149,
+            "options": {
+              "Modell": "Standard"
+            },
+            "epp": {
+              "17": 123.76,
+              "27": 108.29
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 149
+          },
+          {
+            "label": "AirPods 4 mit Aktiver Geräuschunterdrückung",
+            "gross": 199,
+            "options": {
+              "Modell": "Aktive Geräuschunterdrückung"
+            },
+            "id": "2",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "airpods-5",
+        "name": "AirPods 5",
+        "generation": 5,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "Standard",
+            "gross": 149,
+            "fee": 0,
+            "options": {
+              "Modell": "Standard"
+            },
+            "epp": {
+              "17": 123.76,
+              "27": 108.29
+            },
+            "eppBaseGross": 149
+          },
+          {
+            "id": "2",
+            "label": "mit kabellosem Ladecase",
+            "gross": 169,
+            "fee": 0,
+            "options": {
+              "Modell": "mit kabellosem Ladecase"
+            },
+            "epp": {
+              "17": 140.42,
+              "27": 123.76
+            },
+            "eppBaseGross": 169
+          }
+        ]
+      },
+      {
+        "id": "airpods-4",
+        "name": "AirPods 4",
+        "generation": 4,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "AirPods 4",
+            "gross": 149,
+            "options": {
+              "Modell": "Standard"
+            },
+            "epp": {
+              "17": 123.76,
+              "27": 108.29
+            },
+            "id": "1",
+            "fee": 0.0
+          },
+          {
+            "label": "AirPods 4 mit Aktiver Geräuschunterdrückung",
+            "gross": 199,
+            "options": {
+              "Modell": "Aktive Geräuschunterdrückung"
+            },
+            "id": "2",
+            "fee": 0.0
+          }
+        ]
+      },
+      {
+        "id": "airpods-5",
+        "name": "AirPods 5",
+        "generation": 5,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "Standard",
+            "gross": 149,
+            "fee": 0.0,
+            "options": {
+              "Modell": "Standard"
+            }
+          },
+          {
+            "id": "2",
+            "label": "mit kabellosem Ladecase",
+            "gross": 169,
+            "fee": 0.0,
+            "options": {
+              "Modell": "mit kabellosem Ladecase"
+            }
+          }
+        ]
+      }
+    ],
+    "airpods-max": [
+      {
+        "id": "airpods-max-2",
+        "name": "AirPods Max 2",
+        "generation": 2,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 579,
+            "epp": {
+              "17": 480.76,
+              "27": 422.45
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 579
+          }
+        ]
+      },
+      {
+        "id": "airpods-max-2",
+        "name": "AirPods Max 2",
+        "generation": 2,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 579,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "homepod": [
+      {
+        "id": "homepod",
+        "name": "HomePod",
+        "generation": 2,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 399,
+            "epp": {
+              "17": 330.82,
+              "27": 291.55
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 399
+          }
+        ]
+      },
+      {
+        "id": "homepod",
+        "name": "HomePod",
+        "generation": 2,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 399,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "homepod-mini": [
+      {
+        "id": "homepod-mini",
+        "name": "HomePod mini",
+        "generation": 1,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 139,
+            "epp": {
+              "17": 115.43,
+              "27": 101.15
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 139
+          }
+        ]
+      },
+      {
+        "id": "homepod-mini",
+        "name": "HomePod mini",
+        "generation": 1,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 139,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "apple-tv": [
+      {
+        "id": "apple-tv-4k",
+        "name": "Apple TV 4K",
+        "generation": 4,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "64 GB · Wi-Fi",
+            "gross": 229,
+            "options": {
+              "Speicher": "64 GB",
+              "Verbindung": "Wi-Fi"
+            },
+            "epp": {
+              "17": 190.4,
+              "27": 166.6
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 229
+          },
+          {
+            "label": "128 GB · Wi-Fi + Ethernet",
+            "gross": 299,
+            "options": {
+              "Speicher": "128 GB",
+              "Verbindung": "Wi-Fi + Ethernet"
+            },
+            "id": "2",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "apple-tv-4k",
+        "name": "Apple TV 4K",
+        "generation": 4,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "64 GB · Wi-Fi",
+            "gross": 229,
+            "options": {
+              "Speicher": "64 GB",
+              "Verbindung": "Wi-Fi"
+            },
+            "id": "1",
+            "fee": 0.0
+          },
+          {
+            "label": "128 GB · Wi-Fi + Ethernet",
+            "gross": 299,
+            "options": {
+              "Speicher": "128 GB",
+              "Verbindung": "Wi-Fi + Ethernet"
+            },
+            "id": "2",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-1": [
+      {
+        "id": "acc-seed-1",
+        "name": "60W USB-C Ladekabel (1 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 25,
+            "epp": {
+              "17": 20.23
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 25
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-1",
+        "name": "60W USB-C Ladekabel (1 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 19,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-2": [
+      {
+        "id": "acc-seed-2",
+        "name": "240W USB-C Ladekabel (2 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 35,
+            "epp": {
+              "17": 28.56
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 35
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-2",
+        "name": "240W USB-C Ladekabel (2 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 35,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-3": [
+      {
+        "id": "acc-seed-3",
+        "name": "MagSafe Ladegerät (1 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 49,
+            "epp": {
+              "17": 40.46
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 49
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-3",
+        "name": "MagSafe Ladegerät (1 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 49,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-4": [
+      {
+        "id": "acc-seed-4",
+        "name": "MagSafe Ladegerät (2 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59,
+            "epp": {
+              "17": 48.79
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 59
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-4",
+        "name": "MagSafe Ladegerät (2 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-5": [
+      {
+        "id": "acc-seed-5",
+        "name": "Apple Watch magnetisches Schnellladegerät auf USB-C Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 29,
+            "epp": {
+              "17": 23.8
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 29
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-5",
+        "name": "Apple Watch magnetisches Schnellladegerät auf USB-C Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 29,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-6": [
+      {
+        "id": "acc-seed-6",
+        "name": "USB-C auf MagSafe 3 Kabel (2 m) – Silber",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 55,
+            "epp": {
+              "17": 45.22
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 55
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-6",
+        "name": "USB-C auf MagSafe 3 Kabel (2 m) – Silber",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 55,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-7": [
+      {
+        "id": "acc-seed-7",
+        "name": "Thunderbolt 5 (USB-C) Pro Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 79,
+            "epp": {
+              "17": 65.45
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 79
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-7",
+        "name": "Thunderbolt 5 (USB-C) Pro Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 79,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-8": [
+      {
+        "id": "acc-seed-8",
+        "name": "Thunderbolt 4 (USB-C) Pro Kabel (1,8 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 149,
+            "epp": {
+              "17": 123.76
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 149
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-8",
+        "name": "Thunderbolt 4 (USB-C) Pro Kabel (1,8 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 149,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-9": [
+      {
+        "id": "acc-seed-9",
+        "name": "Thunderbolt 4 (USB-C) Pro Kabel (3 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 179,
+            "epp": {
+              "17": 148.75
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 179
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-9",
+        "name": "Thunderbolt 4 (USB-C) Pro Kabel (3 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 179,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-10": [
+      {
+        "id": "acc-seed-10",
+        "name": "40W Dynamic Power Adapter mit 60W Max",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 45,
+            "epp": {
+              "17": 36.89
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 45
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-10",
+        "name": "40W Dynamic Power Adapter mit 60W Max",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 45,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-11": [
+      {
+        "id": "acc-seed-11",
+        "name": "70W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 65,
+            "epp": {
+              "17": 53.55
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 65
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-11",
+        "name": "70W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 65,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-12": [
+      {
+        "id": "acc-seed-12",
+        "name": "96W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 85,
+            "epp": {
+              "17": 70.21
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 85
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-12",
+        "name": "96W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 85,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-13": [
+      {
+        "id": "acc-seed-13",
+        "name": "140W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 119,
+            "epp": {
+              "17": 98.77
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 119
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-13",
+        "name": "140W USB-C Power Adapter",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 119,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-14": [
+      {
+        "id": "acc-seed-14",
+        "name": "Power Adapter Verlängerungskabel",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 25,
+            "epp": {
+              "17": 20.23
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 25
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-14",
+        "name": "Power Adapter Verlängerungskabel",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 25,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-15": [
+      {
+        "id": "acc-seed-15",
+        "name": "Beats USB-C auf USB-C Gewebtes Kabel (1,5 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 25,
+            "epp": {
+              "17": 20.23
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 25
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-15",
+        "name": "Beats USB-C auf USB-C Gewebtes Kabel (1,5 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 24.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-16": [
+      {
+        "id": "acc-seed-16",
+        "name": "Beats USB-C auf USB-C Gewebtes Kabel (3 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 35,
+            "epp": {
+              "17": 28.56
+            },
+            "id": "1",
+            "fee": 0,
+            "eppBaseGross": 35
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-16",
+        "name": "Beats USB-C auf USB-C Gewebtes Kabel (3 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 34.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-17": [
+      {
+        "id": "acc-seed-17",
+        "name": "Belkin Ultra HD High-Speed 8K/4K HDMI Kabel (2 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 39.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-17",
+        "name": "Belkin Ultra HD High-Speed 8K/4K HDMI Kabel (2 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 39.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-18": [
+      {
+        "id": "acc-seed-18",
+        "name": "Scosche StrikeLine USB-C auf USB-C Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 19.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-18",
+        "name": "Scosche StrikeLine USB-C auf USB-C Kabel (1 m)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 19.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-19": [
+      {
+        "id": "acc-seed-19",
+        "name": "Nimble PowerKnit FLEX USB-C auf USB-C Kabel",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-19",
+        "name": "Nimble PowerKnit FLEX USB-C auf USB-C Kabel",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-20": [
+      {
+        "id": "acc-seed-20",
+        "name": "Twelve South PowerBug Qi2.2 Ladegerät",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 49.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-20",
+        "name": "Twelve South PowerBug Qi2.2 Ladegerät",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 49.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-21": [
+      {
+        "id": "acc-seed-21",
+        "name": "Nimble Wally Pro Stretch 30W Wandladegerät",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-21",
+        "name": "Nimble Wally Pro Stretch 30W Wandladegerät",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 59.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-22": [
+      {
+        "id": "acc-seed-22",
+        "name": "Nimble Wally Stretch 65W Wandladegerät",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69.95,
+            "epp": {},
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-seed-22",
+        "name": "Nimble Wally Stretch 65W Wandladegerät",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69.95,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-1": [
+      {
+        "id": "acc-other-1",
+        "name": "AirTag",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 35,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-1",
+        "name": "AirTag",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 35,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-2": [
+      {
+        "id": "acc-other-2",
+        "name": "AirTag 4er Pack",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 119,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-2",
+        "name": "AirTag 4er Pack",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 119,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-3": [
+      {
+        "id": "acc-other-3",
+        "name": "Magic Mouse (USB-C)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 85,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-3",
+        "name": "Magic Mouse (USB-C)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 85,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-4": [
+      {
+        "id": "acc-other-4",
+        "name": "Magic Trackpad (USB-C)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 139,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-4",
+        "name": "Magic Trackpad (USB-C)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 139,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-5": [
+      {
+        "id": "acc-other-5",
+        "name": "Poliertuch",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 25,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-5",
+        "name": "Poliertuch",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 10,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-6": [
+      {
+        "id": "acc-other-6",
+        "name": "Apple Pencil Pro",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 149,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-6",
+        "name": "Apple Pencil Pro",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 149,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-7": [
+      {
+        "id": "acc-other-7",
+        "name": "Siri Remote (3. Generation)",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-7",
+        "name": "Siri Remote (3. Generation)",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-8": [
+      {
+        "id": "acc-other-8",
+        "name": "iPhone Crossbody Band",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-8",
+        "name": "iPhone Crossbody Band",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 69,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "acc-other-9": [
+      {
+        "id": "acc-other-9",
+        "name": "Magic Keyboard für 13\" iPad Pro (M5) – Deutsch",
+        "generation": 0,
+        "date": "2026-08-29",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 399,
+            "id": "1",
+            "fee": 0
+          }
+        ]
+      },
+      {
+        "id": "acc-other-9",
+        "name": "Magic Keyboard für 13\" iPad Pro (M5) – Deutsch",
+        "generation": 0,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "label": "Standard",
+            "gross": 399,
+            "id": "1",
+            "fee": 0.0
+          }
+        ]
+      }
+    ],
+    "iphone-duo": [
+      {
+        "id": "iphone-duo",
+        "name": "iPhone Duo",
+        "generation": 18,
+        "date": "2026-09-13",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 2299,
+            "fee": 5,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 2549,
+            "fee": 5,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 3049,
+            "fee": 5,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 3799,
+            "fee": 5,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      },
+      {
+        "id": "iphone-duo",
+        "name": "iPhone Duo",
+        "generation": 18,
+        "date": "2026-09-14",
+        "variants": [
+          {
+            "id": "1",
+            "label": "256 GB",
+            "gross": 2299,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "256 GB"
+            }
+          },
+          {
+            "id": "2",
+            "label": "512 GB",
+            "gross": 2549,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "512 GB"
+            }
+          },
+          {
+            "id": "3",
+            "label": "1 TB",
+            "gross": 3049,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "1 TB"
+            }
+          },
+          {
+            "id": "4",
+            "label": "2 TB",
+            "gross": 3799,
+            "fee": 5.0,
+            "options": {
+              "Speicher": "2 TB"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "updatedAt": "2026-09-14T22:15:00+02:00"
 }

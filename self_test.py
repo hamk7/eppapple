@@ -30,19 +30,25 @@ assert calc(3999,0,17)==Decimal('3318.91')
 assert calc(4219,0,17)==Decimal('3502.17')
 
 expected17={
-'iPhone 17 Pro':1079.33,'iPhone Air':996.03,'iPhone 17':788.97,'iPhone 16':705.67,'iPhone 17e':580.72,
+'iPhone Air':1079.33,'iPhone 17':912.73,'iPhone 17e':705.67,'iPhone 16':830.62,
 'MacBook Neo':665.86,'MacBook Air':1163.28,'MacBook Pro':1827.30,'iMac':1495.29,'Mac mini':872.92,'Mac Studio':2491.32,
-'Studio Display':1410.15,'Studio Display XDR':2571.59,'Apple Watch Series 11':372.71,'Apple Watch SE 3':222.77,
-'Apple Watch Ultra 3':746.37,'Apple Watch Hermès':1160.49,'Apple Watch Hermès Ultra 3':1310.43,
-'iPad Pro':1079.33,'iPad Air':664.02,'iPad':415.31,'iPad mini':565.25,'Apple Vision Pro':3318.91,
-'AirPods Pro 3':207.06,'AirPods 4':123.76,'AirPods Max 2':480.76,'HomePod':330.82,'HomePod mini':115.43,'Apple TV 4K':190.40,
+'Studio Display':1410.15,'Studio Display XDR':2571.59,'Apple Watch Series 12':372.71,'Apple Watch SE 3':222.77,
+'iPad Pro':1079.33,'iPad Air':664.02,'iPad':415.31,'iPad mini':565.25,'Apple Vision Pro':3070.20,
+'AirPods Pro 3':207.06,'AirPods 5':123.76,'AirPods Max 2':480.76,'HomePod':330.82,'HomePod mini':115.43,'Apple TV 4K':190.40,
+'60W USB-C Ladekabel (1 m)':15.47,'Poliertuch':8.33,
 }
 products={p['name']:p for p in D['products']}
 for name,want in expected17.items():
     p=products[name]
     v=min(p['variants'],key=lambda x:float(x.get('gross',1e99)))
-    got=(v.get('epp') or {}).get('17')
-    assert got is not None and abs(float(got)-want)<.005,(name,got,want)
+    # A stored EPP value is only valid when it explicitly belongs to the same public gross price.
+    # Otherwise calculate from the current gross price so old reference values can never mask a new Apple price.
+    epp=(v.get('epp') or {}).get('17')
+    if epp is not None and float(v.get('eppBaseGross',-1))==float(v.get('gross',0)):
+        got=Decimal(str(epp)).quantize(Decimal('0.01'))
+    else:
+        got=calc(v['gross'],v.get('fee',0),17)
+    assert abs(float(got)-want)<.005,(name,got,want)
 
 # Core assortment/configurability checks.
 assert len(products['iPhone 17 Pro']['variants'])==3
@@ -50,6 +56,13 @@ assert len(products['iPhone 17 Pro Max']['variants'])==4
 assert len(products['Apple Vision Pro']['variants'])==3
 for name in ['MacBook Air','MacBook Pro','Mac mini','Mac Studio','Apple Watch Series 11','Apple Watch SE 3','Apple Watch Ultra 3','Apple Watch Hermès','Apple Watch Hermès Ultra 3','Studio Display','Studio Display XDR']:
     assert products[name].get('autoConfig') is True,name
+# current public price regression guards
+assert products['iPhone 17']['variants'][0]['gross']==1099
+assert products['iPhone 17e']['variants'][0]['gross']==849
+assert products['iPhone Air']['variants'][2]['gross']==2049
+assert products['Poliertuch']['variants'][0]['gross']==10
+assert products['60W USB-C Ladekabel (1 m)']['variants'][0]['gross']==19
+assert products['Apple Vision Pro']['variants'][0]['gross']==3699
 
 # Every local image reference shipped by the seed must exist.
 for p in D['products']:

@@ -30,3 +30,19 @@ Die Web-App ist eine normale responsive Webseite/PWA und funktioniert auch auf A
 - Produktbilder in Karten/Details leicht herausgezoomt.
 - Neue Vorbestellprodukte ergänzt, inkl. AirPods 5.
 - Aktuelle Seed-Daten auf Basis offizieller Apple-Store-Preise aus September 2026.
+
+
+## V6 – Preis-Audit 14.09.2026
+- Stale EPP-Overrides werden nur noch verwendet, wenn `eppBaseGross` exakt zum aktuellen Listenpreis passt.
+- Preisverlauf enthält Snapshots vom 29.08., 13.09. und 14.09.2026.
+- Bilder der neuen Produktgenerationen sind versioniert; Service-Worker Cache wurde erhöht.
+- Zubehörbilder wurden auf unbeschnittene Originale zurückgesetzt; weiße Produkte bleiben auf neutralem hellem Bildfeld.
+- Vollständiger Audit in `price-audit-2026-09-14.csv`.
+
+
+## V7 – 18.09.2026
+- Produktbilder neu zentriert und ohne transparenten Leerraum normalisiert.
+- Service-Worker-Cache auf V7 gesetzt, damit iOS die neuen Bilder tatsächlich lädt.
+- Zubehör-Crawler auf alle offiziellen Kategorien plus Filterseiten erweitert.
+- Zubehör-Vollständigkeitsprüfung integriert; Details in `ACCESSORY-AUDIT-2026-09-18.md`.
+- Historische Preisdateien bleiben unverändert erhalten.

@@ -1,7 +1,2 @@
-Paketstand: 2026-09-14
-Enthalten:
-- index.html, current.json, history-summary.json, Manifest, Service Worker
-- .github/workflows/update-prices.yml
-- visuell überarbeitete Zubehörbilder
-- neue Produkte inkl. Vorbestellungen (u.a. iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, AirPods 5)
-- offizielle Basispreise Apple Store Deutschland, Stand September 2026
+Apple Rabatt V6 · Audit 14.09.2026
+Preislogik, aktuelle Preise, Historie, Bild-Cache und Zubehörbilder korrigiert.
