@@ -541,6 +541,52 @@ def infer_accessory_subcat(name: str):
     return 'office'
 
 
+def plausible_accessory_price(name: str, cat: str, value, old_value=None):
+    """Reject prices that clearly belong to the parent device/financing block instead of the accessory.
+
+    Apple accessory pages can contain the price of a compatible iPhone/Mac in addition to the
+    accessory itself.  The previous crawler used the largest early euro amount and could therefore
+    turn a 45 € charger into 949 €.  This guard is deliberately conservative: when a value looks
+    suspicious we keep the previous verified price and let the detail-page parser try another amount.
+    """
+    try:
+        v = float(value)
+    except Exception:
+        return False
+    if not (5 <= v <= 5000):
+        return False
+    n = norm_name(name)
+    # Tight ceilings for product types whose Apple Store prices are nowhere near a device price.
+    if any(x in n for x in ('case', 'cover', 'hülle', 'huelle', 'folio')) and v > 250:
+        return False
+    if any(x in n for x in ('crossbody', 'handgelenk', 'wallet', 'band')) and v > 300:
+        return False
+    if any(x in n for x in ('kabel', 'cable', 'power adapter', 'netzteil', 'adapter', 'ladegerät', 'ladegeraet', 'charger', 'magsafe')) and v > 500:
+        return False
+    if 'poliertuch' in n and v > 100:
+        return False
+    # Category-level ceilings are intentionally generous to allow premium third-party products.
+    ceilings = {
+        'cases-protection': 350, 'chargers-adapters': 750, 'airtag': 500, 'beats': 1000,
+        'mice-keyboards': 1200, 'headphones-speakers': 1500, 'content': 2500,
+        'health-fitness': 2500, 'gaming': 1500, 'smart-home': 2500, 'office': 2500,
+        'software': 5000, 'storage': 5000
+    }
+    if v > ceilings.get(cat, 2500):
+        return False
+    if old_value not in (None, ''):
+        try:
+            old = float(old_value)
+            if old >= 5:
+                ratio = v / old
+                # Normal price changes are fine; 45 -> 949 or 59 -> 949 are not.
+                if ratio > 3.0 or ratio < 0.25:
+                    return False
+        except Exception:
+            pass
+    return True
+
+
 def load_accessory_audit():
     try:
         a = load(ACCESSORY_AUDIT)
@@ -597,46 +643,43 @@ def accessory_detail(href: str, fallback_name: str = '', fallback_img: str = '')
     s = soup(h)
     title = clean((s.find('h1') or s.find('title')).get_text(' ', strip=True)) if (s.find('h1') or s.find('title')) else fallback_name
     title = re.sub(r'\s+[-–]\s+Apple.*$', '', title).strip()
+    cat = infer_accessory_subcat(title or fallback_name)
 
-    # Prefer structured product prices over incidental financing/trade-in values.
-    pr = None
+    # Gather candidates in order of confidence.  Crucially, never choose the *largest* early
+    # price: device prices and trade-in values can appear on an accessory page too.
+    candidates = []
     for attrs in ({'property':'product:price:amount'}, {'itemprop':'price'}, {'name':'price'}):
         t = s.find('meta', attrs=attrs)
         if t and t.get('content'):
+            raw = str(t.get('content')).strip()
             try:
-                pr = float(str(t.get('content')).replace('.', '').replace(',', '.')) if ',' in str(t.get('content')) else float(t.get('content'))
-                if pr >= 5: break
-            except Exception:
-                pr = None
-    if pr is None:
-        for tag in s.find_all(attrs={'itemprop':'price'}):
-            raw = tag.get('content') or tag.get_text(' ', strip=True)
-            val = price(raw)
-            if val and val >= 5:
-                pr = val; break
-    if pr is None:
-        # JSON-LD often carries an exact offers.price.
-        for sc in s.find_all('script', attrs={'type':'application/ld+json'}):
-            try:
-                obj = json.loads(sc.string or '{}')
-                stack = obj if isinstance(obj, list) else [obj]
-                for node in stack:
-                    if isinstance(node, dict):
-                        off = node.get('offers')
-                        if isinstance(off, dict) and off.get('price') is not None:
-                            val = float(str(off['price']).replace(',', '.'))
-                            if val >= 5:
-                                pr = val; break
-                if pr is not None: break
+                val = float(raw.replace('.', '').replace(',', '.')) if ',' in raw else float(raw)
+                candidates.append(val)
             except Exception:
                 pass
-    if pr is None:
-        text = clean((s.find('main') or s).get_text(' ', strip=True))
-        vals = [v for v in all_prices(text) if v >= 5]
-        # Prefer whole retail prices over small monthly instalments where possible.
-        pr = max(vals[:8], default=None) if vals else None
-    return title or fallback_name, pr, image(h, href) or fallback_img
+    for tag in s.find_all(attrs={'itemprop':'price'}):
+        raw = tag.get('content') or tag.get_text(' ', strip=True)
+        val = price(raw)
+        if val is not None:
+            candidates.append(val)
+    for sc in s.find_all('script', attrs={'type':'application/ld+json'}):
+        try:
+            obj = json.loads(sc.string or '{}')
+            stack = obj if isinstance(obj, list) else [obj]
+            for node in stack:
+                if isinstance(node, dict):
+                    off = node.get('offers')
+                    offers = off if isinstance(off, list) else [off] if isinstance(off, dict) else []
+                    for offer in offers:
+                        if isinstance(offer, dict) and offer.get('price') is not None:
+                            candidates.append(float(str(offer['price']).replace(',', '.')))
+        except Exception:
+            pass
+    text_main = clean((s.find('main') or s).get_text(' ', strip=True))
+    candidates.extend(all_prices(text_main))
 
+    pr = next((v for v in candidates if plausible_accessory_price(title or fallback_name, cat, v)), None)
+    return title or fallback_name, pr, image(h, href) or fallback_img
 
 def looks_apple_product(name: str, href: str, made_hrefs: set[str]):
     n = name.lower()
@@ -742,12 +785,13 @@ def refresh_accessories(d):
         ln = name.lower()
         if any(x in ln for x in ('airpods pro', 'airpods max', 'homepod', 'studio display')):
             continue
-        if pr is None:
-            unresolved.append((href, name, img))
-            continue
         cat = catfor.get(href) or infer_accessory_subcat(name)
         brand = 'apple' if looks_apple_product(name, href, made_hrefs) else 'third-party'
         p = existing.get(href) or existing_by_name.get(norm_name(name))
+        old_price = p.get('variants', [{}])[0].get('gross') if p and p.get('variants') else None
+        if pr is None or not plausible_accessory_price(name, cat, pr, old_price):
+            unresolved.append((href, name, img))
+            continue
         if p is None:
             p = {
                 'id': 'acc-' + slug(href.split('/product/')[-1]), 'category': 'accessories',
@@ -805,6 +849,9 @@ def refresh_accessories(d):
         ln = n2.lower()
         cat = catfor.get(href) or infer_accessory_subcat(n2)
         brand = 'apple' if looks_apple_product(n2, href, made_hrefs) else 'third-party'
+        old_price = p.get('variants', [{}])[0].get('gross') if p and p.get('variants') else None
+        if not plausible_accessory_price(n2, cat, pr, old_price):
+            continue
         if p is None:
             p = {
                 'id': 'acc-' + slug(href.split('/product/')[-1]), 'category': 'accessories',
@@ -902,7 +949,7 @@ def main():
     new = deepcopy(old)
     new['lastCheckedAt'] = now()
     new['schemaVersion'] = max(int(new.get('schemaVersion', 1) or 1), 7)
-    new['calculationVersion'] = '7.0-round-discount-to-cents-then-euro-accessory-audit'
+    new['calculationVersion'] = '8.1-accessory-price-guard-first-valid-price'
 
     safe_step('levies', refresh_levies, new)
     safe_step('models', discover_new_models, new)

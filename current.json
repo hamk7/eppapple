@@ -2,8 +2,8 @@
   "schemaVersion": 7,
   "sourceLabel": "Apple Store Deutschland · Live-Sync + Zubehör-Vollständigkeitsprüfung",
   "lastCheckedAt": "2026-09-14T22:15:00+02:00",
-  "updatedAt": "2026-09-14T22:15:00+02:00",
-  "lastChangedAt": "2026-09-14T22:15:00+02:00",
+  "updatedAt": "2026-09-18T03:35:26+02:00",
+  "lastChangedAt": "2026-09-18T03:35:26+02:00",
   "vat": 0.19,
   "levies": {
     "iphone": {
@@ -2397,7 +2397,7 @@
         "charger",
         "charging"
       ],
-      "sourceUrl": "",
+      "sourceUrl": "https://www.apple.com/de/shop/product/mgtu4zm/a/40w-dynamic-power-adapter-mit-60w-max",
       "autoConfig": false,
       "variants": [
         {
@@ -2411,7 +2411,9 @@
         "ipad",
         "iphone",
         "mac"
-      ]
+      ],
+      "priceVerifiedAt": "2026-09-18",
+      "featuredRank": 700
     },
     {
       "id": "acc-seed-11",
@@ -3446,9 +3448,248 @@
           }
         }
       ]
+    },
+    {
+      "id": "acc-20w-usb-c-power-adapter",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-20w-usb-c-power-adapter",
+      "generation": 0,
+      "name": "20W USB-C Power Adapter",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "20w",
+        "usb-c"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/md3j4zm/a/20w-usb%E2%80%91c-power-adapter",
+      "autoConfig": false,
+      "compat": [
+        "iphone",
+        "ipad",
+        "watch"
+      ],
+      "featuredRank": 520,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 19,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-clear-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-clear-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Clear Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro",
+        "case",
+        "hülle",
+        "clear case",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mkdu4zm/a/iphone-18-pro-clear-case-mit-magsafe",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 990,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 59,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-funktionsgewebe-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-funktionsgewebe-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Funktionsgewebe Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro",
+        "case",
+        "hülle",
+        "funktionsgewebe",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mkd64zm/a/iphone-18-pro-funktionsgewebe-case-mit-magsafe-schwarz",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 995,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 69,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-silikon-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-silikon-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Silikon Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro",
+        "case",
+        "hülle",
+        "silikon",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mk8y4zm/a/iphone-18-pro-silikon-case-mit-magsafe-schwarz",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 992,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 59,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-max-clear-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-max-clear-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Max Clear Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro max",
+        "case",
+        "hülle",
+        "clear case",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mkdv4zm/a/iphone-18-pro-max-clear-case-mit-magsafe",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 999,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 59,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-max-funktionsgewebe-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-max-funktionsgewebe-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Max Funktionsgewebe Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro max",
+        "case",
+        "hülle",
+        "funktionsgewebe",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mkdt4zm/a/iphone-18-pro-max-funktionsgewebe-case-mit-magsafe-schwarz",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 1000,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 69,
+          "fee": 0.0
+        }
+      ]
+    },
+    {
+      "id": "acc-iphone-18-pro-max-silikon-case",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-iphone-18-pro-max-silikon-case",
+      "generation": 18,
+      "name": "iPhone 18 Pro Max Silikon Case mit MagSafe",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "neu",
+        "iphone 18 pro max",
+        "case",
+        "hülle",
+        "silikon",
+        "magsafe"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/product/mk924zm/a/iphone-18-pro-max-silikon-case-mit-magsafe-oliv",
+      "autoConfig": false,
+      "compat": [
+        "iphone"
+      ],
+      "featuredRank": 998,
+      "priceVerifiedAt": "2026-09-18",
+      "variants": [
+        {
+          "id": "one",
+          "label": "Standard",
+          "gross": 59,
+          "fee": 0.0
+        }
+      ]
     }
   ],
-  "calculationVersion": "6.0-current-gross-guarded-overrides",
+  "calculationVersion": "8.1-accessory-price-guard-first-valid-price",
   "accessoryCatalogAudit": {
     "auditedAt": "2026-09-18",
     "directCategoryUniqueCount": 215,
@@ -3673,5 +3914,5 @@
     "Zens Magnetisches Nachtisch-Ladegerät"
   ],
   "accessoryAuditKnownComplete": false,
-  "buildVersion": "7.0-2026-09-18"
+  "buildVersion": "8.1-accessory-price-fix"
 }
