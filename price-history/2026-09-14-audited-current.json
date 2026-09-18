@@ -1,0 +1,3453 @@
+{
+  "schemaVersion": 6,
+  "sourceLabel": "Apple Store Deutschland · Preis-Audit 14.09.2026",
+  "lastCheckedAt": "2026-09-14T22:15:00+02:00",
+  "updatedAt": "2026-09-14T22:15:00+02:00",
+  "lastChangedAt": "2026-09-14T22:15:00+02:00",
+  "vat": 0.19,
+  "levies": {
+    "iphone": {
+      "amount": 5.0
+    },
+    "ipad": {
+      "amount": 7.0
+    },
+    "mac": {
+      "amount": 10.55
+    },
+    "watch": {
+      "amount": 1.2
+    }
+  },
+  "categories": [
+    {
+      "id": "mac",
+      "name": "Mac",
+      "icon": "laptop",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "macbooks",
+          "name": "MacBooks"
+        },
+        {
+          "id": "desktop",
+          "name": "Desktop"
+        }
+      ]
+    },
+    {
+      "id": "ipad",
+      "name": "iPad",
+      "icon": "tablet",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "pro",
+          "name": "Pro"
+        },
+        {
+          "id": "air",
+          "name": "Air"
+        },
+        {
+          "id": "standard",
+          "name": "iPad"
+        },
+        {
+          "id": "mini",
+          "name": "mini"
+        }
+      ]
+    },
+    {
+      "id": "iphone",
+      "name": "iPhone",
+      "icon": "phone",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "pro",
+          "name": "Pro"
+        },
+        {
+          "id": "air",
+          "name": "Air"
+        },
+        {
+          "id": "standard",
+          "name": "Standard"
+        }
+      ]
+    },
+    {
+      "id": "watch",
+      "name": "Apple Watch",
+      "icon": "watch",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "series",
+          "name": "Series"
+        },
+        {
+          "id": "se",
+          "name": "SE"
+        },
+        {
+          "id": "ultra",
+          "name": "Ultra"
+        },
+        {
+          "id": "hermes",
+          "name": "Hermès"
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "name": "Vision",
+      "icon": "vision",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        }
+      ]
+    },
+    {
+      "id": "airpods",
+      "name": "AirPods",
+      "icon": "airpods",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "pro",
+          "name": "Pro"
+        },
+        {
+          "id": "standard",
+          "name": "AirPods"
+        },
+        {
+          "id": "max",
+          "name": "Max"
+        }
+      ]
+    },
+    {
+      "id": "tvhome",
+      "name": "TV & Home",
+      "icon": "home",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "homepod",
+          "name": "HomePod"
+        },
+        {
+          "id": "tv",
+          "name": "Apple TV"
+        }
+      ]
+    },
+    {
+      "id": "displays",
+      "name": "Displays",
+      "icon": "display",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "studio",
+          "name": "Studio Display"
+        },
+        {
+          "id": "xdr",
+          "name": "Studio Display XDR"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Zubehör",
+      "icon": "accessory",
+      "subcategories": [
+        {
+          "id": "all",
+          "name": "Alle"
+        },
+        {
+          "id": "mice-keyboards",
+          "name": "Mäuse & Tastaturen"
+        },
+        {
+          "id": "health-fitness",
+          "name": "Gesundheit & Fitness"
+        },
+        {
+          "id": "chargers-adapters",
+          "name": "Ladegeräte & Adapter"
+        },
+        {
+          "id": "headphones-speakers",
+          "name": "Kopfhörer & Lautsprecher"
+        },
+        {
+          "id": "software",
+          "name": "Software"
+        },
+        {
+          "id": "office",
+          "name": "Zubehör fürs Büro"
+        },
+        {
+          "id": "storage",
+          "name": "Festplatten & Speicher"
+        },
+        {
+          "id": "content",
+          "name": "Content Erstellung"
+        },
+        {
+          "id": "gaming",
+          "name": "Gaming"
+        },
+        {
+          "id": "cases-protection",
+          "name": "Hüllen & Schutz"
+        },
+        {
+          "id": "smart-home",
+          "name": "Smart Home Zubehör"
+        },
+        {
+          "id": "airtag",
+          "name": "AirTag"
+        },
+        {
+          "id": "beats",
+          "name": "Beats"
+        }
+      ],
+      "productFilters": [
+        {
+          "id": "iphone",
+          "name": "iPhone"
+        },
+        {
+          "id": "ipad",
+          "name": "iPad"
+        },
+        {
+          "id": "mac",
+          "name": "Mac"
+        },
+        {
+          "id": "watch",
+          "name": "Apple Watch"
+        },
+        {
+          "id": "vision",
+          "name": "Apple Vision Pro"
+        },
+        {
+          "id": "airpods",
+          "name": "AirPods"
+        },
+        {
+          "id": "tvhome",
+          "name": "TV & Home"
+        },
+        {
+          "id": "airtag",
+          "name": "AirTag"
+        },
+        {
+          "id": "beats",
+          "name": "Beats"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "iphone-17-pro",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro",
+      "generation": 17,
+      "name": "iPhone 17 Pro",
+      "subtitle": "6,3 Zoll",
+      "imageUrl": "iphone-17-pro.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17-pro",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 1299,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "epp": {
+            "17": 1079.33,
+            "27": 949.62
+          },
+          "id": "1",
+          "fee": 5.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 1549,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 5.0
+        },
+        {
+          "label": "1 TB",
+          "gross": 1799,
+          "options": {
+            "Speicher": "1 TB"
+          },
+          "id": "3",
+          "fee": 5.0
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro-max",
+      "generation": 17,
+      "name": "iPhone 17 Pro Max",
+      "subtitle": "6,9 Zoll",
+      "imageUrl": "iphone-17-pro.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17-pro",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 1449,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "epp": {
+            "17": 1204.28,
+            "27": 1059.1
+          },
+          "id": "1",
+          "fee": 5.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 1699,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 5.0
+        },
+        {
+          "label": "1 TB",
+          "gross": 1949,
+          "options": {
+            "Speicher": "1 TB"
+          },
+          "id": "3",
+          "fee": 5.0
+        },
+        {
+          "label": "2 TB",
+          "gross": 2449,
+          "options": {
+            "Speicher": "2 TB"
+          },
+          "id": "4",
+          "fee": 5.0
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "iphone-air",
+      "category": "iphone",
+      "subcategory": "air",
+      "seriesKey": "iphone-air",
+      "generation": 17,
+      "name": "iPhone Air",
+      "subtitle": "6,5 Zoll",
+      "imageUrl": "iphone-air.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 1299,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "id": "1",
+          "fee": 5.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 1549,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 5.0
+        },
+        {
+          "label": "1 TB",
+          "gross": 2049,
+          "options": {
+            "Speicher": "1 TB"
+          },
+          "id": "3",
+          "fee": 5.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
+    },
+    {
+      "id": "iphone-17",
+      "category": "iphone",
+      "subcategory": "standard",
+      "seriesKey": "iphone-standard",
+      "generation": 17,
+      "name": "iPhone 17",
+      "subtitle": "6,3 Zoll",
+      "imageUrl": "iphone-17.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 1099,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "id": "1",
+          "fee": 5.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 1349,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 5.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
+    },
+    {
+      "id": "iphone-17e",
+      "category": "iphone",
+      "subcategory": "standard",
+      "seriesKey": "iphone-e",
+      "generation": 17,
+      "name": "iPhone 17e",
+      "subtitle": "6,1 Zoll",
+      "imageUrl": "iphone-17e.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 849,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "id": "1",
+          "fee": 5.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 1099,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 5.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
+    },
+    {
+      "id": "iphone-16",
+      "category": "iphone",
+      "subcategory": "standard",
+      "seriesKey": "iphone-standard",
+      "generation": 16,
+      "name": "iPhone 16",
+      "subtitle": "6,1 Zoll",
+      "imageUrl": "iphone-16.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+      "autoConfig": false,
+      "variants": [
+        {
+          "id": "1",
+          "label": "128 GB",
+          "gross": 999,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "128 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "256 GB",
+          "gross": 1129,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "512 GB",
+          "gross": 1379,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 120
+    },
+    {
+      "id": "iphone-16-plus",
+      "category": "iphone",
+      "subcategory": "standard",
+      "seriesKey": "iphone-standard-plus",
+      "generation": 16,
+      "name": "iPhone 16 Plus",
+      "subtitle": "6,7 Zoll",
+      "imageUrl": "iphone-16.png",
+      "brandType": "apple",
+      "tags": [
+        "iphone",
+        "plus"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+      "autoConfig": false,
+      "variants": [
+        {
+          "id": "1",
+          "label": "128 GB",
+          "gross": 949,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "128 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "256 GB",
+          "gross": 1079,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "512 GB",
+          "gross": 1329,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "ipad-pro",
+      "category": "ipad",
+      "subcategory": "pro",
+      "seriesKey": "ipad-pro",
+      "generation": 5,
+      "name": "iPad Pro",
+      "subtitle": "11 oder 13 Zoll · M5",
+      "imageUrl": "ipad-pro.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "11\" · 256 GB · Wi-Fi · Standardglas",
+          "gross": 1299,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB",
+            "Glas": "Standardglas"
+          },
+          "epp": {
+            "17": 1079.33,
+            "27": 950.81
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 512 GB · Wi-Fi · Standardglas",
+          "gross": 1549,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi · Standardglas",
+          "gross": 2029,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 2 TB · Wi-Fi · Standardglas",
+          "gross": 2649,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "2 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi · Nanotexturglas",
+          "gross": 2159,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 2 TB · Wi-Fi · Nanotexturglas",
+          "gross": 2779,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "2 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+          "gross": 1549,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+          "gross": 1799,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+          "gross": 2279,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+          "gross": 2899,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "2 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+          "gross": 2409,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+          "gross": 3029,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "2 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 256 GB · Wi-Fi · Standardglas",
+          "gross": 1649,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 512 GB · Wi-Fi · Standardglas",
+          "gross": 1899,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi · Standardglas",
+          "gross": 2379,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 2 TB · Wi-Fi · Standardglas",
+          "gross": 2999,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "2 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi · Nanotexturglas",
+          "gross": 2509,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 2 TB · Wi-Fi · Nanotexturglas",
+          "gross": 3129,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "2 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 256 GB · Wi-Fi + Cellular · Standardglas",
+          "gross": 1899,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 512 GB · Wi-Fi + Cellular · Standardglas",
+          "gross": 2149,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi + Cellular · Standardglas",
+          "gross": 2629,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 2 TB · Wi-Fi + Cellular · Standardglas",
+          "gross": 3249,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "2 TB",
+            "Glas": "Standardglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi + Cellular · Nanotexturglas",
+          "gross": 2759,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 2 TB · Wi-Fi + Cellular · Nanotexturglas",
+          "gross": 3379,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "2 TB",
+            "Glas": "Nanotexturglas"
+          },
+          "fee": 7.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
+    },
+    {
+      "id": "ipad-air",
+      "category": "ipad",
+      "subcategory": "air",
+      "seriesKey": "ipad-air",
+      "generation": 4,
+      "name": "iPad Air",
+      "subtitle": "11 oder 13 Zoll · M4",
+      "imageUrl": "ipad-air.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "11\" · 128 GB · Wi-Fi",
+          "gross": 799,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "128 GB"
+          },
+          "epp": {
+            "17": 664.02,
+            "27": 585.48
+          },
+          "id": "1",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 256 GB · Wi-Fi",
+          "gross": 929,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB"
+          },
+          "id": "2",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 512 GB · Wi-Fi",
+          "gross": 1179,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB"
+          },
+          "id": "3",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi",
+          "gross": 1559,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB"
+          },
+          "id": "4",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 128 GB · Wi-Fi + Cellular",
+          "gross": 969,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "128 GB"
+          },
+          "id": "5",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 256 GB · Wi-Fi + Cellular",
+          "gross": 1099,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB"
+          },
+          "id": "6",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 512 GB · Wi-Fi + Cellular",
+          "gross": 1349,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB"
+          },
+          "id": "7",
+          "fee": 7.0
+        },
+        {
+          "label": "11\" · 1 TB · Wi-Fi + Cellular",
+          "gross": 1729,
+          "options": {
+            "Größe": "11\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB"
+          },
+          "id": "8",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 128 GB · Wi-Fi",
+          "gross": 999,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "128 GB"
+          },
+          "id": "9",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 256 GB · Wi-Fi",
+          "gross": 1129,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB"
+          },
+          "id": "10",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 512 GB · Wi-Fi",
+          "gross": 1379,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB"
+          },
+          "id": "11",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi",
+          "gross": 1759,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi",
+            "Speicher": "1 TB"
+          },
+          "id": "12",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 128 GB · Wi-Fi + Cellular",
+          "gross": 1169,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "128 GB"
+          },
+          "id": "13",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 256 GB · Wi-Fi + Cellular",
+          "gross": 1299,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB"
+          },
+          "id": "14",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 512 GB · Wi-Fi + Cellular",
+          "gross": 1549,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB"
+          },
+          "id": "15",
+          "fee": 7.0
+        },
+        {
+          "label": "13\" · 1 TB · Wi-Fi + Cellular",
+          "gross": 1929,
+          "options": {
+            "Größe": "13\"",
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "1 TB"
+          },
+          "id": "16",
+          "fee": 7.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 145
+    },
+    {
+      "id": "ipad",
+      "category": "ipad",
+      "subcategory": "standard",
+      "seriesKey": "ipad-standard",
+      "generation": 16,
+      "name": "iPad",
+      "subtitle": "11 Zoll · A16",
+      "imageUrl": "ipad.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "128 GB · Wi-Fi",
+          "gross": 499,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "128 GB"
+          },
+          "epp": {
+            "17": 415.31,
+            "27": 366.52
+          },
+          "id": "1",
+          "fee": 7.0
+        },
+        {
+          "label": "256 GB · Wi-Fi",
+          "gross": 629,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB"
+          },
+          "id": "2",
+          "fee": 7.0
+        },
+        {
+          "label": "512 GB · Wi-Fi",
+          "gross": 879,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB"
+          },
+          "id": "3",
+          "fee": 7.0
+        },
+        {
+          "label": "128 GB · Wi-Fi + Cellular",
+          "gross": 669,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "128 GB"
+          },
+          "id": "4",
+          "fee": 7.0
+        },
+        {
+          "label": "256 GB · Wi-Fi + Cellular",
+          "gross": 799,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB"
+          },
+          "id": "5",
+          "fee": 7.0
+        },
+        {
+          "label": "512 GB · Wi-Fi + Cellular",
+          "gross": 1049,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB"
+          },
+          "id": "6",
+          "fee": 7.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 135
+    },
+    {
+      "id": "ipad-mini",
+      "category": "ipad",
+      "subcategory": "mini",
+      "seriesKey": "ipad-mini",
+      "generation": 17,
+      "name": "iPad mini",
+      "subtitle": "8,3 Zoll · A17 Pro",
+      "imageUrl": "ipad-mini.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "128 GB · Wi-Fi",
+          "gross": 679,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "128 GB"
+          },
+          "epp": {
+            "17": 565.25,
+            "27": 497.42
+          },
+          "id": "1",
+          "fee": 7.0
+        },
+        {
+          "label": "256 GB · Wi-Fi",
+          "gross": 809,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "256 GB"
+          },
+          "id": "2",
+          "fee": 7.0
+        },
+        {
+          "label": "512 GB · Wi-Fi",
+          "gross": 1059,
+          "options": {
+            "Verbindung": "Wi-Fi",
+            "Speicher": "512 GB"
+          },
+          "id": "3",
+          "fee": 7.0
+        },
+        {
+          "label": "128 GB · Wi-Fi + Cellular",
+          "gross": 849,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "128 GB"
+          },
+          "id": "4",
+          "fee": 7.0
+        },
+        {
+          "label": "256 GB · Wi-Fi + Cellular",
+          "gross": 979,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "256 GB"
+          },
+          "id": "5",
+          "fee": 7.0
+        },
+        {
+          "label": "512 GB · Wi-Fi + Cellular",
+          "gross": 1229,
+          "options": {
+            "Verbindung": "Wi-Fi + Cellular",
+            "Speicher": "512 GB"
+          },
+          "id": "6",
+          "fee": 7.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 132
+    },
+    {
+      "id": "macbook-neo",
+      "category": "mac",
+      "subcategory": "macbooks",
+      "seriesKey": "macbook-neo",
+      "generation": 1,
+      "name": "MacBook Neo",
+      "subtitle": "13 Zoll · A18 Pro",
+      "imageUrl": "macbook-neo.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/macbook-neo",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Basismodell · 256 GB",
+          "gross": 799,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "id": "1",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 150
+    },
+    {
+      "id": "macbook-air",
+      "category": "mac",
+      "subcategory": "macbooks",
+      "seriesKey": "macbook-air",
+      "generation": 5,
+      "name": "MacBook Air",
+      "subtitle": "13 oder 15 Zoll · M5",
+      "imageUrl": "macbook-air.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/macbook-air",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Basismodell",
+          "gross": 1399,
+          "options": {
+            "Größe": "13 Zoll",
+            "Chip": "M5",
+            "Arbeitsspeicher": "16 GB",
+            "Speicher": "512 GB"
+          },
+          "id": "1",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
+    },
+    {
+      "id": "macbook-pro",
+      "category": "mac",
+      "subcategory": "macbooks",
+      "seriesKey": "macbook-pro",
+      "generation": 5,
+      "name": "MacBook Pro",
+      "subtitle": "14 oder 16 Zoll · M5 / M5 Pro / M5 Max",
+      "imageUrl": "macbook-pro.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/macbook-pro",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Basismodell",
+          "gross": 2199,
+          "options": {
+            "Größe": "14 Zoll",
+            "Chip": "M5",
+            "Arbeitsspeicher": "16 GB",
+            "Speicher": "1 TB"
+          },
+          "id": "1",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 138
+    },
+    {
+      "id": "imac",
+      "category": "mac",
+      "subcategory": "desktop",
+      "seriesKey": "imac",
+      "generation": 4,
+      "name": "iMac",
+      "subtitle": "24 Zoll · M4",
+      "imageUrl": "imac.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/imac",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Basismodell",
+          "gross": 1799,
+          "options": {
+            "Chip": "M4 · 8-Core CPU / 8-Core GPU",
+            "Arbeitsspeicher": "16 GB",
+            "Speicher": "256 GB",
+            "Display": "Standardglas",
+            "Basis": "Standfuß"
+          },
+          "id": "1",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
+    },
+    {
+      "id": "mac-mini",
+      "category": "mac",
+      "subcategory": "desktop",
+      "seriesKey": "mac-mini",
+      "generation": 6,
+      "name": "Mac mini",
+      "subtitle": "M6 oder M5 Pro",
+      "imageUrl": "mac-mini.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/mac-mini",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "M6 Basismodell",
+          "gross": 1049,
+          "options": {
+            "Chip": "M6",
+            "Arbeitsspeicher": "16 GB",
+            "Speicher": "256 GB",
+            "Ethernet": "2,5 Gigabit"
+          },
+          "id": "1",
+          "fee": 10.55
+        },
+        {
+          "label": "M5 Pro Basismodell",
+          "gross": 1999,
+          "options": {
+            "Chip": "M5 Pro",
+            "Arbeitsspeicher": "24 GB",
+            "Speicher": "512 GB",
+            "Ethernet": "2,5 Gigabit"
+          },
+          "id": "2",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 136
+    },
+    {
+      "id": "mac-studio",
+      "category": "mac",
+      "subcategory": "desktop",
+      "seriesKey": "mac-studio",
+      "generation": 5,
+      "name": "Mac Studio",
+      "subtitle": "M5 Max oder M5 Ultra",
+      "imageUrl": "mac-studio.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/mac-studio",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "M5 Max Basismodell",
+          "gross": 2999,
+          "options": {
+            "Chip": "M5 Max",
+            "Arbeitsspeicher": "36 GB",
+            "Speicher": "512 GB"
+          },
+          "id": "1",
+          "fee": 10.55
+        },
+        {
+          "label": "M5 Ultra Basismodell",
+          "gross": 6599,
+          "options": {
+            "Chip": "M5 Ultra",
+            "Arbeitsspeicher": "96 GB",
+            "Speicher": "1 TB"
+          },
+          "id": "2",
+          "fee": 10.55
+        }
+      ],
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 134
+    },
+    {
+      "id": "studio-display",
+      "category": "displays",
+      "subcategory": "studio",
+      "seriesKey": "studio-display",
+      "generation": 2,
+      "name": "Studio Display",
+      "subtitle": "27 Zoll · 5K",
+      "imageUrl": "studio-display.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/studio-display",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Standardglas · Neigungsverstellbarer Standfuß",
+          "gross": 1699,
+          "options": {
+            "Glas": "Standardglas",
+            "Standfuß": "Neigungsverstellbarer Standfuß"
+          },
+          "id": "1",
+          "fee": 0.0
+        },
+        {
+          "label": "Standardglas · VESA Mount Adapter",
+          "gross": 1699,
+          "options": {
+            "Glas": "Standardglas",
+            "Standfuß": "VESA Mount Adapter"
+          },
+          "id": "2",
+          "fee": 0.0
+        },
+        {
+          "label": "Standardglas · Neigungs- und höhenverstellbarer Standfuß",
+          "gross": 2099,
+          "options": {
+            "Glas": "Standardglas",
+            "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+          },
+          "id": "3",
+          "fee": 0.0
+        },
+        {
+          "label": "Nanotexturglas · Neigungsverstellbarer Standfuß",
+          "gross": 1999,
+          "options": {
+            "Glas": "Nanotexturglas",
+            "Standfuß": "Neigungsverstellbarer Standfuß"
+          },
+          "id": "4",
+          "fee": 0.0
+        },
+        {
+          "label": "Nanotexturglas · VESA Mount Adapter",
+          "gross": 1999,
+          "options": {
+            "Glas": "Nanotexturglas",
+            "Standfuß": "VESA Mount Adapter"
+          },
+          "id": "5",
+          "fee": 0.0
+        },
+        {
+          "label": "Nanotexturglas · Neigungs- und höhenverstellbarer Standfuß",
+          "gross": 2399,
+          "options": {
+            "Glas": "Nanotexturglas",
+            "Standfuß": "Neigungs- und höhenverstellbarer Standfuß"
+          },
+          "id": "6",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 122
+    },
+    {
+      "id": "studio-display-xdr",
+      "category": "displays",
+      "subcategory": "xdr",
+      "seriesKey": "studio-display-xdr",
+      "generation": 2,
+      "name": "Studio Display XDR",
+      "subtitle": "32 Zoll · 6K",
+      "imageUrl": "studio-display-xdr.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-mac/studio-display-xdr",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "Standardglas · VESA Mount Adapter",
+          "gross": 3099,
+          "options": {
+            "Glas": "Standardglas",
+            "Standfuß": "VESA Mount Adapter"
+          },
+          "id": "1",
+          "fee": 0.0
+        },
+        {
+          "label": "Nanotexturglas · VESA Mount Adapter",
+          "gross": 3399,
+          "options": {
+            "Glas": "Nanotexturglas",
+            "Standfuß": "VESA Mount Adapter"
+          },
+          "id": "2",
+          "fee": 0.0
+        },
+        {
+          "label": "Standardglas · Pro Stand",
+          "gross": 3499,
+          "options": {
+            "Glas": "Standardglas",
+            "Standfuß": "Pro Stand"
+          },
+          "id": "3",
+          "fee": 0.0
+        },
+        {
+          "label": "Nanotexturglas · Pro Stand",
+          "gross": 3799,
+          "options": {
+            "Glas": "Nanotexturglas",
+            "Standfuß": "Pro Stand"
+          },
+          "id": "4",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 120
+    },
+    {
+      "id": "watch-series-11",
+      "category": "watch",
+      "subcategory": "series",
+      "seriesKey": "watch-series",
+      "generation": 11,
+      "name": "Apple Watch Series 11",
+      "subtitle": "42 oder 46 mm",
+      "imageUrl": "watch-series-11.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "42 mm · Aluminium · GPS · Sportarmband",
+          "gross": 449,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "epp": {
+            "17": 372.71,
+            "27": 328.68
+          },
+          "id": "1",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS · Sportarmband",
+          "gross": 479,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "id": "2",
+          "fee": 1.2
+        },
+        {
+          "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 569,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "3",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 599,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "4",
+          "fee": 1.2
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "watch-se-3",
+      "category": "watch",
+      "subcategory": "se",
+      "seriesKey": "watch-se",
+      "generation": 3,
+      "name": "Apple Watch SE 3",
+      "subtitle": "40 oder 44 mm",
+      "imageUrl": "watch-se-3.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "40 mm · GPS · Sportarmband",
+          "gross": 269,
+          "options": {
+            "Größe": "40 mm",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "calcGross": 268,
+          "id": "1",
+          "fee": 1.2,
+          "epp": {
+            "17": 222.77,
+            "27": 196.59
+          },
+          "eppBaseGross": 269
+        },
+        {
+          "label": "44 mm · GPS · Sportarmband",
+          "gross": 299,
+          "options": {
+            "Größe": "44 mm",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "id": "2",
+          "fee": 1.2,
+          "epp": {
+            "17": 247.77
+          },
+          "eppBaseGross": 299
+        },
+        {
+          "label": "40 mm · GPS + Cellular · Sportarmband",
+          "gross": 319,
+          "options": {
+            "Größe": "40 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "3",
+          "fee": 1.2
+        },
+        {
+          "label": "44 mm · GPS + Cellular · Sportarmband",
+          "gross": 349,
+          "options": {
+            "Größe": "44 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "4",
+          "fee": 1.2
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
+    },
+    {
+      "id": "watch-ultra-3",
+      "category": "watch",
+      "subcategory": "ultra",
+      "seriesKey": "watch-ultra",
+      "generation": 3,
+      "name": "Apple Watch Ultra 3",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-ultra-3.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-ultra",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "49 mm · Titan · Alpine/Trail/Ocean",
+          "gross": 899,
+          "options": {
+            "Größe": "49 mm",
+            "Material": "Titan",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Alpine / Trail / Ocean"
+          },
+          "epp": {
+            "17": 746.37,
+            "27": 657.12
+          },
+          "id": "1",
+          "fee": 1.2
+        },
+        {
+          "label": "49 mm · Titan · Titan Milanaise",
+          "gross": 999,
+          "options": {
+            "Größe": "49 mm",
+            "Material": "Titan",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Titan Milanaise"
+          },
+          "id": "2",
+          "fee": 1.2
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "watch-hermes",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes",
+      "generation": 11,
+      "name": "Apple Watch Hermès",
+      "subtitle": "Series 11 · 42 oder 46 mm",
+      "imageUrl": "watch-hermes.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "42 mm · Titan Silber · Hermès Armband",
+          "gross": 1399,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Titan Silber",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          },
+          "calcGross": 1398,
+          "epp": {
+            "17": 1160.49,
+            "27": 1021.26
+          },
+          "id": "1",
+          "fee": 1.2,
+          "eppBaseGross": 1399
+        },
+        {
+          "label": "46 mm · Titan Silber · Hermès Armband",
+          "gross": 1449,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Titan Silber",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          },
+          "id": "2",
+          "fee": 1.2
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "watch-hermes-ultra-3",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes-ultra",
+      "generation": 3,
+      "name": "Apple Watch Hermès Ultra 3",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-hermes-ultra-3.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes-ultra",
+      "autoConfig": true,
+      "variants": [
+        {
+          "label": "49 mm · Titan · Hermès",
+          "gross": 1579,
+          "options": {
+            "Größe": "49 mm",
+            "Material": "Titan",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          },
+          "calcGross": 1579,
+          "epp": {
+            "17": 1310.43,
+            "27": 1153.35
+          },
+          "id": "1",
+          "fee": 1.2,
+          "eppBaseGross": 1579
+        }
+      ],
+      "availabilityStatus": "Vorgänger"
+    },
+    {
+      "id": "vision-pro",
+      "category": "vision",
+      "subcategory": "all",
+      "seriesKey": "vision-pro",
+      "generation": 2,
+      "name": "Apple Vision Pro",
+      "subtitle": "M5",
+      "imageUrl": "vision-pro.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-vision/apple-vision-pro",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "256 GB",
+          "gross": 3699,
+          "options": {
+            "Speicher": "256 GB"
+          },
+          "id": "1",
+          "fee": 0.0
+        },
+        {
+          "label": "512 GB",
+          "gross": 3919,
+          "options": {
+            "Speicher": "512 GB"
+          },
+          "id": "2",
+          "fee": 0.0
+        },
+        {
+          "label": "1 TB",
+          "gross": 4139,
+          "options": {
+            "Speicher": "1 TB"
+          },
+          "id": "3",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
+    },
+    {
+      "id": "airpods-pro-3",
+      "category": "airpods",
+      "subcategory": "pro",
+      "seriesKey": "airpods-pro",
+      "generation": 3,
+      "name": "AirPods Pro 3",
+      "subtitle": "",
+      "imageUrl": "airpods-pro-3.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 249,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 140
+    },
+    {
+      "id": "airpods-4",
+      "category": "airpods",
+      "subcategory": "standard",
+      "seriesKey": "airpods",
+      "generation": 4,
+      "name": "AirPods 4",
+      "subtitle": "",
+      "imageUrl": "airpods-4.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-airpods/airpods-4",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "AirPods 4",
+          "gross": 149,
+          "options": {
+            "Modell": "Standard"
+          },
+          "epp": {
+            "17": 123.76,
+            "27": 108.29
+          },
+          "id": "1",
+          "fee": 0.0
+        },
+        {
+          "label": "AirPods 4 mit Aktiver Geräuschunterdrückung",
+          "gross": 199,
+          "options": {
+            "Modell": "Aktive Geräuschunterdrückung"
+          },
+          "id": "2",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Vorgänger / weiterhin gelistet",
+      "featuredRank": 136
+    },
+    {
+      "id": "airpods-max-2",
+      "category": "airpods",
+      "subcategory": "max",
+      "seriesKey": "airpods-max",
+      "generation": 2,
+      "name": "AirPods Max 2",
+      "subtitle": "",
+      "imageUrl": "airpods-max-2.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-airpods/airpods-max",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 579,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 130
+    },
+    {
+      "id": "homepod",
+      "category": "tvhome",
+      "subcategory": "homepod",
+      "seriesKey": "homepod",
+      "generation": 2,
+      "name": "HomePod",
+      "subtitle": "",
+      "imageUrl": "homepod.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-homepod/homepod",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 399,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 128
+    },
+    {
+      "id": "homepod-mini",
+      "category": "tvhome",
+      "subcategory": "homepod",
+      "seriesKey": "homepod-mini",
+      "generation": 1,
+      "name": "HomePod mini",
+      "subtitle": "",
+      "imageUrl": "homepod-mini.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-homepod/homepod-mini",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 139,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 126
+    },
+    {
+      "id": "apple-tv-4k",
+      "category": "tvhome",
+      "subcategory": "tv",
+      "seriesKey": "apple-tv",
+      "generation": 4,
+      "name": "Apple TV 4K",
+      "subtitle": "",
+      "imageUrl": "apple-tv-4k.png",
+      "brandType": "apple",
+      "tags": [],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-tv/apple-tv-4k",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "64 GB · Wi-Fi",
+          "gross": 229,
+          "options": {
+            "Speicher": "64 GB",
+            "Verbindung": "Wi-Fi"
+          },
+          "id": "1",
+          "fee": 0.0
+        },
+        {
+          "label": "128 GB · Wi-Fi + Ethernet",
+          "gross": 299,
+          "options": {
+            "Speicher": "128 GB",
+            "Verbindung": "Wi-Fi + Ethernet"
+          },
+          "id": "2",
+          "fee": 0.0
+        }
+      ],
+      "availabilityStatus": "Jetzt kaufen",
+      "featuredRank": 124
+    },
+    {
+      "id": "acc-seed-1",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-1",
+      "generation": 0,
+      "name": "60W USB-C Ladekabel (1 m)",
+      "subtitle": "",
+      "imageUrl": "acc-60w-cable.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 19,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-2",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-2",
+      "generation": 0,
+      "name": "240W USB-C Ladekabel (2 m)",
+      "subtitle": "",
+      "imageUrl": "acc-240w-cable.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 35,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-3",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-3",
+      "generation": 0,
+      "name": "MagSafe Ladegerät (1 m)",
+      "subtitle": "",
+      "imageUrl": "acc-magsafe-1m.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 49,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "iphone"
+      ]
+    },
+    {
+      "id": "acc-seed-4",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-4",
+      "generation": 0,
+      "name": "MagSafe Ladegerät (2 m)",
+      "subtitle": "",
+      "imageUrl": "acc-magsafe-2m.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 59,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "iphone"
+      ]
+    },
+    {
+      "id": "acc-seed-5",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-5",
+      "generation": 0,
+      "name": "Apple Watch magnetisches Schnellladegerät auf USB-C Kabel (1 m)",
+      "subtitle": "",
+      "imageUrl": "acc-watch-fast-cable.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 29,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac",
+        "watch"
+      ]
+    },
+    {
+      "id": "acc-seed-6",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-6",
+      "generation": 0,
+      "name": "USB-C auf MagSafe 3 Kabel (2 m) – Silber",
+      "subtitle": "",
+      "imageUrl": "acc-magsafe3-cable.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 55,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-7",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-7",
+      "generation": 0,
+      "name": "Thunderbolt 5 (USB-C) Pro Kabel (1 m)",
+      "subtitle": "",
+      "imageUrl": "acc-thunderbolt5.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 79,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-8",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-8",
+      "generation": 0,
+      "name": "Thunderbolt 4 (USB-C) Pro Kabel (1,8 m)",
+      "subtitle": "",
+      "imageUrl": "acc-thunderbolt4-18.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 149,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-9",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-9",
+      "generation": 0,
+      "name": "Thunderbolt 4 (USB-C) Pro Kabel (3 m)",
+      "subtitle": "",
+      "imageUrl": "acc-thunderbolt4-3.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 179,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-10",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-10",
+      "generation": 0,
+      "name": "40W Dynamic Power Adapter mit 60W Max",
+      "subtitle": "",
+      "imageUrl": "acc-40w.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 45,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-11",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-11",
+      "generation": 0,
+      "name": "70W USB-C Power Adapter",
+      "subtitle": "",
+      "imageUrl": "acc-70w.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 65,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-12",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-12",
+      "generation": 0,
+      "name": "96W USB-C Power Adapter",
+      "subtitle": "",
+      "imageUrl": "acc-96w.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 85,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-13",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-13",
+      "generation": 0,
+      "name": "140W USB-C Power Adapter",
+      "subtitle": "",
+      "imageUrl": "acc-140w.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 119,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-14",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-14",
+      "generation": 0,
+      "name": "Power Adapter Verlängerungskabel",
+      "subtitle": "",
+      "imageUrl": "acc-extension.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 25,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-15",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-15",
+      "generation": 0,
+      "name": "Beats USB-C auf USB-C Gewebtes Kabel (1,5 m)",
+      "subtitle": "",
+      "imageUrl": "acc-beats-15.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 24.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "beats",
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-16",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-16",
+      "generation": 0,
+      "name": "Beats USB-C auf USB-C Gewebtes Kabel (3 m)",
+      "subtitle": "",
+      "imageUrl": "acc-beats-3.png",
+      "brandType": "apple",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 34.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "beats",
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-17",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-17",
+      "generation": 0,
+      "name": "Belkin Ultra HD High-Speed 8K/4K HDMI Kabel (2 m)",
+      "subtitle": "",
+      "imageUrl": "acc-belkin-hdmi.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 39.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": []
+    },
+    {
+      "id": "acc-seed-18",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-18",
+      "generation": 0,
+      "name": "Scosche StrikeLine USB-C auf USB-C Kabel (1 m)",
+      "subtitle": "",
+      "imageUrl": "acc-scosche.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 19.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-19",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-19",
+      "generation": 0,
+      "name": "Nimble PowerKnit FLEX USB-C auf USB-C Kabel",
+      "subtitle": "",
+      "imageUrl": "acc-nimble-flex.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 59.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-20",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-20",
+      "generation": 0,
+      "name": "Twelve South PowerBug Qi2.2 Ladegerät",
+      "subtitle": "",
+      "imageUrl": "acc-powerbug.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 49.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": []
+    },
+    {
+      "id": "acc-seed-21",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-21",
+      "generation": 0,
+      "name": "Nimble Wally Pro Stretch 30W Wandladegerät",
+      "subtitle": "",
+      "imageUrl": "acc-wally-pro.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 59.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-seed-22",
+      "category": "accessories",
+      "subcategory": "chargers-adapters",
+      "seriesKey": "acc-22",
+      "generation": 0,
+      "name": "Nimble Wally Stretch 65W Wandladegerät",
+      "subtitle": "",
+      "imageUrl": "acc-wally-65.png",
+      "brandType": "third-party",
+      "tags": [
+        "ladegerät",
+        "netzteil",
+        "adapter",
+        "kabel",
+        "charger",
+        "charging"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 69.95,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-other-1",
+      "category": "accessories",
+      "subcategory": "airtag",
+      "seriesKey": "acc-other-1",
+      "generation": 0,
+      "name": "AirTag",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "tracker",
+        "finden"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 35,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "airtag"
+      ]
+    },
+    {
+      "id": "acc-other-2",
+      "category": "accessories",
+      "subcategory": "airtag",
+      "seriesKey": "acc-other-2",
+      "generation": 0,
+      "name": "AirTag 4er Pack",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "tracker"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 119,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "airtag"
+      ]
+    },
+    {
+      "id": "acc-other-3",
+      "category": "accessories",
+      "subcategory": "mice-keyboards",
+      "seriesKey": "acc-other-3",
+      "generation": 0,
+      "name": "Magic Mouse (USB-C)",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "maus",
+        "mouse"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 85,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-other-4",
+      "category": "accessories",
+      "subcategory": "mice-keyboards",
+      "seriesKey": "acc-other-4",
+      "generation": 0,
+      "name": "Magic Trackpad (USB-C)",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "trackpad"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 139,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad",
+        "iphone",
+        "mac"
+      ]
+    },
+    {
+      "id": "acc-other-5",
+      "category": "accessories",
+      "subcategory": "office",
+      "seriesKey": "acc-other-5",
+      "generation": 0,
+      "name": "Poliertuch",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "poliertuch",
+        "reinigung"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 10,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": []
+    },
+    {
+      "id": "acc-other-6",
+      "category": "accessories",
+      "subcategory": "content",
+      "seriesKey": "acc-other-6",
+      "generation": 0,
+      "name": "Apple Pencil Pro",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "pencil",
+        "stift",
+        "illustration"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 149,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad"
+      ]
+    },
+    {
+      "id": "acc-other-7",
+      "category": "accessories",
+      "subcategory": "smart-home",
+      "seriesKey": "acc-other-7",
+      "generation": 0,
+      "name": "Siri Remote (3. Generation)",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "fernbedienung",
+        "remote"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 69,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "tvhome"
+      ]
+    },
+    {
+      "id": "acc-other-8",
+      "category": "accessories",
+      "subcategory": "cases-protection",
+      "seriesKey": "acc-other-8",
+      "generation": 0,
+      "name": "iPhone Crossbody Band",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "hülle",
+        "band",
+        "crossbody"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 69,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "iphone"
+      ]
+    },
+    {
+      "id": "acc-other-9",
+      "category": "accessories",
+      "subcategory": "mice-keyboards",
+      "seriesKey": "acc-other-9",
+      "generation": 0,
+      "name": "Magic Keyboard für 13\" iPad Pro (M5) – Deutsch",
+      "subtitle": "",
+      "imageUrl": "",
+      "brandType": "apple",
+      "tags": [
+        "tastatur",
+        "keyboard",
+        "ipad"
+      ],
+      "sourceUrl": "",
+      "autoConfig": false,
+      "variants": [
+        {
+          "label": "Standard",
+          "gross": 399,
+          "id": "1",
+          "fee": 0.0
+        }
+      ],
+      "compat": [
+        "ipad"
+      ]
+    },
+    {
+      "id": "iphone-duo",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-duo",
+      "generation": 18,
+      "name": "iPhone Duo",
+      "subtitle": "7,6 Zoll innen · 5,4 Zoll außen",
+      "imageUrl": "iphone-duo-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Faltbar",
+        "Duo"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung ab 16.10.",
+      "featuredRank": 180,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 2299,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 2549,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 3049,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 3799,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iphone-18-pro",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro",
+      "generation": 18,
+      "name": "iPhone 18 Pro",
+      "subtitle": "6,3 Zoll",
+      "imageUrl": "iphone-18-pro-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Pro"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 170,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 1449,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 1699,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 2199,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 2949,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iphone-18-pro-max",
+      "category": "iphone",
+      "subcategory": "pro",
+      "seriesKey": "iphone-pro-max",
+      "generation": 18,
+      "name": "iPhone 18 Pro Max",
+      "subtitle": "6,9 Zoll",
+      "imageUrl": "iphone-18-pro-max-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Pro Max"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 168,
+      "variants": [
+        {
+          "id": "1",
+          "label": "256 GB",
+          "gross": 1599,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "256 GB"
+          }
+        },
+        {
+          "id": "2",
+          "label": "512 GB",
+          "gross": 1849,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "512 GB"
+          }
+        },
+        {
+          "id": "3",
+          "label": "1 TB",
+          "gross": 2349,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "1 TB"
+          }
+        },
+        {
+          "id": "4",
+          "label": "2 TB",
+          "gross": 3099,
+          "fee": 5.0,
+          "options": {
+            "Speicher": "2 TB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-series-12",
+      "category": "watch",
+      "subcategory": "series",
+      "seriesKey": "watch-series",
+      "generation": 12,
+      "name": "Apple Watch Series 12",
+      "subtitle": "42 oder 46 mm",
+      "imageUrl": "watch-series-12-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Series 12"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 160,
+      "variants": [
+        {
+          "label": "42 mm · Aluminium · GPS · Sportarmband",
+          "gross": 449,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "id": "1",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS · Sportarmband",
+          "gross": 479,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS",
+            "Armband": "Sportarmband"
+          },
+          "id": "2",
+          "fee": 1.2
+        },
+        {
+          "label": "42 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 569,
+          "options": {
+            "Größe": "42 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "3",
+          "fee": 1.2
+        },
+        {
+          "label": "46 mm · Aluminium · GPS + Cellular · Sportarmband",
+          "gross": 599,
+          "options": {
+            "Größe": "46 mm",
+            "Material": "Aluminium",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Sportarmband"
+          },
+          "id": "4",
+          "fee": 1.2
+        }
+      ]
+    },
+    {
+      "id": "watch-ultra-4",
+      "category": "watch",
+      "subcategory": "ultra",
+      "seriesKey": "watch-ultra",
+      "generation": 4,
+      "name": "Apple Watch Ultra 4",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-ultra-4-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Ultra 4"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-ultra",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 158,
+      "variants": [
+        {
+          "id": "1",
+          "label": "49 mm · Titan · GPS + Cellular",
+          "gross": 800,
+          "fee": 1.2,
+          "options": {
+            "Größe": "49 mm",
+            "Material": "Titan",
+            "Verbindung": "GPS + Cellular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-hermes-series-12",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes",
+      "generation": 12,
+      "name": "Apple Watch Hermès Series 12",
+      "subtitle": "42 oder 46 mm",
+      "imageUrl": "watch-hermes-series-12-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Hermès"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 156,
+      "variants": [
+        {
+          "id": "1",
+          "label": "42 mm · GPS + Cellular · Hermès",
+          "gross": 1050,
+          "fee": 1.2,
+          "options": {
+            "Größe": "42 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch-hermes-ultra-4",
+      "category": "watch",
+      "subcategory": "hermes",
+      "seriesKey": "watch-hermes-ultra",
+      "generation": 4,
+      "name": "Apple Watch Hermès Ultra 4",
+      "subtitle": "49 mm · Titan",
+      "imageUrl": "watch-hermes-ultra-4-20260914.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Hermès Ultra"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes-ultra",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 154,
+      "variants": [
+        {
+          "id": "1",
+          "label": "49 mm · GPS + Cellular · Hermès",
+          "gross": 1100,
+          "fee": 1.2,
+          "options": {
+            "Größe": "49 mm",
+            "Verbindung": "GPS + Cellular",
+            "Armband": "Hermès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "airpods-5",
+      "category": "airpods",
+      "subcategory": "standard",
+      "seriesKey": "airpods",
+      "generation": 5,
+      "name": "AirPods 5",
+      "subtitle": "Erhältlich ab 18.9.",
+      "imageUrl": "airpods-5.png",
+      "brandType": "apple",
+      "tags": [
+        "Neu",
+        "Vorbestellung",
+        "ANC"
+      ],
+      "sourceUrl": "https://www.apple.com/de/shop/buy-airpods/airpods-5",
+      "autoConfig": false,
+      "availabilityStatus": "Vorbestellung",
+      "featuredRank": 155,
+      "variants": [
+        {
+          "id": "1",
+          "label": "Standard",
+          "gross": 149,
+          "fee": 0.0,
+          "options": {
+            "Modell": "Standard"
+          }
+        },
+        {
+          "id": "2",
+          "label": "mit kabellosem Ladecase",
+          "gross": 169,
+          "fee": 0.0,
+          "options": {
+            "Modell": "mit kabellosem Ladecase"
+          }
+        }
+      ]
+    }
+  ],
+  "calculationVersion": "6.0-current-gross-guarded-overrides",
+  "snapshotAt": "2026-09-14T22:15:00+02:00"
+}
